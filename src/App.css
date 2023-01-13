@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap');
 .active{
     @apply lg:text-slate-500 text-red-600
+}
+.playfire{
+    font-family: 'Playfair Display', serif;
 }

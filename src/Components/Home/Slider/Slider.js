@@ -4,7 +4,7 @@ import home from '../../../Assets/home-img.webp'
 const Slider = () => {
   return (
     <>
-    <div><img src={home} alt="img" className='w-full h-[510px] ' /></div>
+    <div><img src={home} alt="img" className='w-full h-[400px] md:h-[510px] ' /></div>
     </>
   )
 }

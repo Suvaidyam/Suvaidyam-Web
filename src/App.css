@@ -6,3 +6,4 @@
 .active{
     @apply lg:text-slate-500 text-red-600
 }
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Zen+Kurenaido&display=swap');

@@ -3,59 +3,55 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
+      <div className="w-full">
       {/* footer */}
-      <div className='flex lg:ml-44  mt-14 lg:pl-0 pl-7'>
-        <div className='lg:w-full'>
-          <h1 className='lg:text-5xl font-serif text-bgblue font-light my-3 text-3xl'>SUPPORT US</h1>
-          <div className='flex items-center gap-4'>
-            <p className=' bg-blue-500 w-12 h-[1px]'>
-            </p>
-            <p>
-              Your support means saved lives
-            </p>
-          </div>
-          {/* Button */}
-          <div>
-            <button className='border-2 border-bgblue w-32 h-10 hover:bg-white hover:text-bgblue font-bold
-             text-[11px]  bg-bgblue text-white tracking-[2px] my-8 duration-500
-             '>DONATE</button>
-          </div>
-          {/* Address */}
-          <div className='w-full lg:flex'>
-            <div className='w-[300px]'>
-              <p>Address</p>
-              <p>City, State, Zip Code</p>
+       <div className="w-full h-auto md:h-96 px-12 md:px-4 lg:px-24 xl:px-48 ">
+          <div className="w-full h-full py-12">
+            <div className="w-full h-auto md:h-1/2 flex flex-col gap-4 justify-between">
+             <div className="">
+             <h1 className='text-[46px] font-playfire '>SUPPORT US</h1>
+              <div className=" relative w-[268px] flex justify-end items-center">
+                <span className='h-[1px] bg-blue-700 w-[40px] absolute left-0'></span>
+                 <span className='text-right h-6 z-50 font-light text-[16px]'>
+                  Your support means saved lives</span>
+              </div>
+             </div>
+             <button className='bg-bgblue text-white text-[10px] tracking-widest border-[1.5px] border-bgblue
+             w-48 md:w-28 h-9 font-extrabold hover:bg-white hover:text-bgblue duration-500'>DONATE</button>
             </div>
-            <div className='w-[330px]'><p className='text-bgblue  font-bold'>GET INVOLVED</p></div>
-            <div><p className='text-bgblue  font-bold'>JOIN THE EMAIL LIST</p></div>
+            {/* bottom */}
+            <div className="w-full h-auto md:h-1/2 flex flex-col md:flex-row gap-8 lg:gap-24  ">
+               <div className="h-full flex flex-col gap-3 justify-end">
+                  <div className="md:mt-auto mt-8">
+                    <p className='text-fsm font-light'>Address</p>
+                    <p className='text-fsm font-light'>City, State, Zip Code</p>
+                  </div>
+                  <div className="">
+                    <p className='text-fsm font-light'>(XXX) XXX-XXXX</p>
+                    <a href="#" className='text-fsm font-light'>sampleemail@sample.com</a>
+                  </div>
+               </div>
+               <div className="h-full flex flex-col justify-end gap-3 md:gap-9">
+                  <p className='font-semibold text-fsm'>GET INVOLVED</p>
+                  <p className='font-light text-fsm'>Let's combine forces to make a <br />
+                    difference together</p>
+               </div>
+               <div className="h-full flex flex-col justify-end gap-3 md:gap-9">
+                 <p className='font-semibold text-fsm'>JOIN THE EMAIL LIST</p>
+                 <div className='flex gap-3'>
+                    <input type="email" placeholder='Enter email address' className='border-2
+                    w-36 px-3 py-1.5 border-bgblue placeholder:text-sm placeholder:font-light outline-none
+                    text-sm font-light'/>
+                    <button className='w-24 border-[1.5px] border-bgblue text-[9px] font-extrabold 
+                    tracking-widest'>JOIN</button>
+                 </div>
+               </div>
+            </div>
           </div>
-          <div>
-          </div>
-          <div className='mt-4 lg:flex  w-full'>
-            <div className='w-[300px]'>
-              <p>(XXX) XXX-XXXX</p>
-              <p>sampleemail@sample.com</p>
-            </div>
-            <div>
-              <p className='w-[320px]'>Let's combine forces to make a <br />  difference together</p>
-            </div>
-            <div>
-              <input type="text" placeholder='Enter email address' className='border-2 outline-none border-bgblue lg:mx-3 h-10 p-1 text-[14px]' />
-            </div>
-            <div>
-              <button className='border-2 tracking-[2px] border-bgblue w-24 h-10 p-1 text-bgblue  text-[12.5px]
-              hover:bg-bgblue hover:text-white font-bold duration-500 '>JOIN</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* copywrite 2023 */}
-      <div className='w-full bg-bgblue h-[70px] mt-14 opacity-80 top-0  '>
-        <div className='lg:w-[350px] flex lg:justify-end items-center h-full'>
-          <p className='text-white font-thin text-[13px] lg:ml-0 ml-7'>@ 2023 by Suvaidyam,City,State</p>
-        </div>
-      </div>
-
+       </div>
+       {/* Copyright */}
+       <div className="w-full h-16 bg-bgfooter"></div>
+     </div>
     </>
   )
 }

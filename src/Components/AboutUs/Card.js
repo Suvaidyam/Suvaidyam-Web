@@ -17,7 +17,7 @@ export const Card = () => {
       </div>
       {/* card guide */}
       <div className="lg:flex justify-center mt-16 lg:w-full ">
-        <div className="bg-gray-50 lg:w-[480px] w-full lg:mx-3 lg:flex pb-7 items-center">
+        <div className="bg-[#F9F9F9] lg:w-[480px] w-full lg:mx-3 lg:flex pb-7 items-center">
           <img
             src={encourage}
             alt="encourage"

@@ -6,6 +6,7 @@ import Teams from '../Teams/Teams'
 import ContactUs from '../ContactUs/ContactUs'
 import Header from '../Common/Header/Header';
 import Footer from '../Common/Footer/Footer';
+import GetInvolved from '../GetInvolved/GetInvolved';
 
 const Router = () => {
   return (
@@ -17,6 +18,7 @@ const Router = () => {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/teams" element={<Teams />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/involved" element={<GetInvolved />} />
           </Routes>
           <Footer/>
       </BrowserRouter>

@@ -42,7 +42,7 @@ const Footer = () => {
                     <input type="email" placeholder='Enter email address' className='border-2
                     w-36 px-3 py-1.5 border-bgblue placeholder:text-sm placeholder:font-light outline-none
                     text-sm font-light'/>
-                    <button className='w-24 border-[1.5px] border-bgblue hover:bg-bgblue hover:text-white
+                    <button className='w-24 border-2 border-bgblue hover:bg-bgblue hover:text-white
                     duration-500 text-[9px] font-extrabold 
                     tracking-widest'>JOIN</button>
                  </div>
@@ -51,7 +51,10 @@ const Footer = () => {
           </div>
        </div>
        {/* Copyright */}
-       <div className="w-full h-16 bg-bgfooter"></div>
+       <div className="w-full h-16 bg-bgfooter px-0 lg:px-48 flex items-center
+        justify-center lg:justify-start">
+        <p className='text-white font-light text-sm'> © 2022 by Suvaidyam, City, State</p>
+       </div>
      </div>
     </>
   )

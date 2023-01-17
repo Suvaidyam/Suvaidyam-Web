@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* img */}
         <div><img src={hand} alt="hand-img" className='w-full h-[215px]  bg-contain lg:w-[700px] lg:h-[660px] bg-no-repeat' /></div>
         {/* our mission */}
-        <div className='bg-[#0C1D39] lg:w-[700px] lg:h-[660px] lg:flex justify-end w-[360px]'>
+        <div className='bg-[#0C1D39] lg:w-[700px] lg:h-[660px] lg:flex justify-end w-[full]'>
           <div className='lg:w-[360px] lg:mx-0 ml-7 w-[250px] pt-7 h-[660px] '>
             <p className='text-white   text-[45px] lg:text-7xl '>OUR</p>
             <p className='text-white  text-5xl lg:text-7xl lg:mt-5'>MISSION</p>
@@ -48,7 +48,7 @@ const AboutUs = () => {
         </p>
       </div>
       {/* who we are */}
-      <div className='bg-slate-100  lg:w-full w-[308px] lg:mt-16 lg:flex lg:justify-end lg:ml-0 ml-7  '>
+      <div className='bg-slate-100  lg:w-full w-[full] lg:mx-0 mx-7 lg:mt-16 lg:flex lg:justify-end lg:ml-0 ml-7  '>
         <div className='lg:w-[460px] my-10 mb-10 lg:mx-0 mx-4'>
           <h1 className='text-2xl text-bgblue lg:px-0 p-3'>WHO WE ARE</h1>
           <p className='my-7'>Amresh Kumar founded Suvaidyam in the summer of 20__ with the aim

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       {/* footer */}
-      <div className='flex lg:ml-44 mt-14 lg:w-full ml-7'>
+      <div className='flex lg:ml-44  mt-14 lg:pl-0 pl-7'>
         <div className='lg:w-full'>
           <h1 className='lg:text-5xl font-serif text-bgblue font-light my-3 text-3xl'>SUPPORT US</h1>
           <div className='flex items-center gap-4'>
@@ -22,25 +22,25 @@ const Footer = () => {
           </div>
           {/* Address */}
           <div className='w-full lg:flex'>
-            <div className='w-[400px]'>
+            <div className='w-[300px]'>
               <p>Address</p>
               <p>City, State, Zip Code</p>
             </div>
-            <div className='w-[300px]'><p className='text-bgblue  font-bold'>GET INVOLVED</p></div>
+            <div className='w-[330px]'><p className='text-bgblue  font-bold'>GET INVOLVED</p></div>
             <div><p className='text-bgblue  font-bold'>JOIN THE EMAIL LIST</p></div>
           </div>
           <div>
           </div>
           <div className='mt-4 lg:flex  w-full'>
-            <div className='w-[395px]'>
+            <div className='w-[300px]'>
               <p>(XXX) XXX-XXXX</p>
               <p>sampleemail@sample.com</p>
             </div>
             <div>
-              <p className='w-[290px]'>Let's combine forces to make a  difference together</p>
+              <p className='w-[320px]'>Let's combine forces to make a <br />  difference together</p>
             </div>
             <div>
-              <input type="text" placeholder='Enter email address' className='border-2 text-center border-bgblue lg:mx-3 h-10 p-1 text-[14px]' />
+              <input type="text" placeholder='Enter email address' className='border-2 outline-none border-bgblue lg:mx-3 h-10 p-1 text-[14px]' />
             </div>
             <div>
               <button className='border-2 tracking-[2px] border-bgblue w-24 h-10 p-1 text-bgblue  text-[12.5px]

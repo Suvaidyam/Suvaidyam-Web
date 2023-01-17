@@ -4,11 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        bgblue:'#0C1D39'
+        bgblue:'#0C1D39',
+        bgfooter:'#3A4961'
       },
       fontFamily:{
         playfire:"'Playfair Display', serif",
         fontsans:"'Source Sans Pro', sans-serif"
+      },
+      fontSize:{
+        fsm:'16px',
       }
     },
   },

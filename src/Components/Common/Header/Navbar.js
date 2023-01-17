@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { HiBars3 } from 'react-icons/hi2'
 import { IoMdClose } from 'react-icons/io'
 
@@ -20,10 +20,10 @@ const Navbar = () => {
                         <NavLink to='/contact' className='font-semibold text-[15px] hover:text-slate-500
                           text-[#0C1D39]'>Contact Us</NavLink>
                     </div>
-                    <div>
+                    <Link to='/involved'>
                         <button className='w-48 h-10 text-[10px] font-bold border-[1.5px] border-[#0C1D39]
                 hover:bg-[#0C1D39] hover:text-white tracking-widest duration-500'>GET INVOLVED</button>
-                    </div>
+                    </Link>
                 </div>
             </div>
             {/* mobile */}

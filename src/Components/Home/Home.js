@@ -14,10 +14,10 @@ const Home = () => {
           <p className='text-sm md:text-xl text-bgblue md:-mt-5'>EMPOWERING RURAL INDIA THROUGH TECH</p>
         </div>
         {/* SUVAIDYAM DOWN */}
-        <div className='block md:flex w-full md:pb-16 pb-4 pt-10 px-5 md:px-0 md:gap-20'>
+        <div className='block md:flex w-full md:pb-16 pb-4 pt-10 px-5 md:px-0 md:gap-28'>
           <div className='md:w-1/2 md:flex'>
-            <div className='w-[50%] hidden md:block'></div>
-            <div className='md:w-[50%]'>
+            <div className='w-[38%] hidden md:block'></div>
+            <div className='md:w-[51%]'>
               <div className=' md:flex items-center md:gap-5 '>
                 <div><p className='border-t w-20 border-red-500 hidden md:block'></p></div>
                 <div><p className='font-thin md:text-xs text-[16px] tracking-widest'>Bridging the technology gap</p></div>
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
           </div>
           <div className='md:w-1/2 flex'>
-            <div className='md:w-[70%] text-[17.5px] font-thin text-bgblue tracking-wide'>
+            <div className='md:w-[70%] md:text-[17.5px] text-[20px] font-fontserif text-black tracking-wide'>
               <p>
                 Indian villages have the potential to serve as centres of advanced
                 technology and innovation. Our primary objective is to empower rural
@@ -47,7 +47,7 @@ const Home = () => {
                 Our goal therefore is to provide easy access to technical infrastructure, education and opportunities
                 to rural India and empower individuals, families, and in turn rural communities to thrive and grow.
               </p>
-              <p className='underline md:text-xs md:mt-7 mt-2 tracking-widest'><a href="" >MORE ABOUT US</a></p>
+              <p className='underline md:text-xs text-[17px] md:mt-7 mt-2 tracking-widest'><a href="" >MORE ABOUT US</a></p>
             </div>
             <div className='w-[30%] hidden md:block'>
               {/*  */}
@@ -59,12 +59,12 @@ const Home = () => {
           <div className='md:w-[60%]'>
             <img src={girlImg} alt="girls imaze" />
           </div>
-          <div className='md:w-[50%] text-center md:text-start px-4 flex'>
-            <div className='md:w-[65%]'>
+          <div className='md:w-[50%] text-center md:text-start px-5 flex'>
+            <div className='md:w-[70.5%]'>
               <p className='font-extrabold md:text-[55px] text-[45px] tracking-[12px] text-bgblue pt-8'>WHY</p>
               <p className='font-bold text-bgblue pb-8 text-lg tracking-widest'>JOIN HANDS</p>
-              <div className="text-[17.5px] font- text-bgblue tracking-wide">
-                <p className=''>
+              <div className="text-[18.5px] font-fontserif text-bgblue tracking-wide">
+                <p>
                   Barriers such as lack of guidance, exposure,
                   infrastructure and resources prevent the youth
                   of rural India to dream of a career in the
@@ -90,16 +90,16 @@ const Home = () => {
           </div>
           <div className='flex justify-center gap-4'>
             <div className='w-16 mt-4 border-black border-t'></div>
-            <div className='font-thin text-xl hidden md:block tracking-wider'>LEADING IN THE INDUSTRY</div>
+            <div className='font-thin text-[18px] hidden md:block tracking-wider'>LEADING IN THE INDUSTRY</div>
           </div>
         </div>
         {/* SUVAIDYAM DOWN four*/}
-        <div className='h-[480px] w-full justify-center flex items-center bg-bgblue text-white'>
-          <div className='text-center'>
-            <div>
-              <p className='text-[40px] font-thin tracking-wider '>A little guidance goes a long way...</p>
-              {/* <p className='border-t-4 w-12 mt-5'></p> */}
-            </div>
+        <div className='md:h-[480px] w-full py-10  justify-center flex items-center px-[22px] text-center bg-bgblue text-white'>
+          <div>
+            {/* <div> */}
+              <p className='md:text-[38px] text-[29px] font-thin tracking-wider'>A little guidance goes a long way...</p>
+              <p className='border-t-4  mt-5 md:mx-[46.5%] mx-[43%]'></p>
+            {/* </div> */}
             <div className='mt-5 font-fontspar text-[17.5px]'>
               <p>We are empowering the youth of rural India to choose careers in the tech domain</p>
               <p>by providing them mentorship every step of the way.</p>
@@ -108,7 +108,7 @@ const Home = () => {
               <p>We are bringing technical infrastructure to our villages in order to make them self-</p>
               <p>sustained technology hubs so that our youth is not forced to migrate to cities to</p>
               <p>pursue rewarding careers.</p>
-              <p className='mt-12 font-bold'>- Amresh Kumar, Founder</p>
+              <p className='mt-12 font-bold tracking-widest'>- Amresh Kumar, Founder</p>
             </div>
           </div>
         </div>

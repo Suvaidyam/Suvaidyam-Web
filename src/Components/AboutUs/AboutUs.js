@@ -55,31 +55,27 @@ const AboutUs = () => {
         </div>
       </div>
       {/* paragraph */}
-      <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7">
-        <p className="  text-gray-600 mt-7 lg:text-center  text-xl  lg:text-base">
-          Our vision is to empower the rural youth and make them reach their
-          full potential. We want to uplift rural India by educating its young
-          adults in
+      <div className='lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7'>
+        <p className=' text-gray-600 mt-7 lg:text-center lg:font-fontspar  text-xl lg:text-[17px]'>
+          Our vision is to empower the rural youth and make them reach their full potential.
+          We want to uplift rural India by educating its young adults in
           <p></p>
           computer technology and creating opportunities for them to create and
           define their own success.
         </p>
       </div>
       {/* who we are */}
-      <div className="bg-[#EAF4F6]  lg:w-full w-[full] lg:mx-0 mx-7 lg:mt-16 lg:flex lg:justify-end lg:ml-0 ml-7  ">
-        <div className="lg:w-[460px] my-10 mb-10 lg:mx-0 mx-4">
-          <h1 className="text-2xl text-bgblue lg:px-0 p-3">WHO WE ARE</h1>
-          <p className="my-7">
-            Amresh Kumar founded Suvaidyam in the summer of 20__ with the aim to
-            unleash the full potential of the young adults born and brought up
-            in Indian villages.
+      <div className='bg-slate-100  lg:w-full w-[full] lg:mx-0 mx-7 lg:mt-16 lg:flex lg:justify-end lg:ml-0 ml-7  '>
+        <div className='lg:w-[460px] my-10 mb-10 lg:mx-0 mx-4'>
+          <h1 className='text-2xl text-bgblue  lg:px-0 p-3'>WHO WE ARE</h1>
+          <p className='my-7 font-fontspar text-[18px]'>Amresh Kumar founded Suvaidyam in the summer of 20__ with the aim
+            to unleash the full potential of the young adults born and brought up in Indian villages.
           </p>
-          <p>
-            Together Team Suvaidyam is creating opportunities for the rural
-            youth in the tech industry. From teaching them how to write code to
-            providing them hands on practical skills, Team Suvaidyam is making
-            sure that these young adults feel confident and qualified for
-            pursuing a variety of technology-focused careers.
+          <p className='font-fontspar text-[18px]'>
+            Together Team Suvaidyam is creating opportunities for the rural youth in the tech industry.
+            From teaching them how to write code to providing them hands on practical skills,
+            Team Suvaidyam is making sure that these young adults feel confident and qualified
+            for pursuing a variety of technology-focused careers.
           </p>
         </div>
         <div className="lg:w-[700px]">
@@ -93,7 +89,7 @@ const AboutUs = () => {
 
       {/* Card components */}
       <Card />
-      {/* IMAGE Components */}
+      {/* Slider Components */}
       <Slider />
     </>
   );

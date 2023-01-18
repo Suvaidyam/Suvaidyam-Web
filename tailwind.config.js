@@ -10,7 +10,8 @@ module.exports = {
       fontFamily:{
         playfire:"'Playfair Display', serif",
         fontsans:"'Source Sans Pro', sans-serif",
-        fontspar:"'Zen Kurenaido', sans-seri"
+        fontspar:"'Zen Kurenaido', sans-seri",
+        fontserif: "'Palanquin', sans-serif"
       },
       fontSize:{
         fsm:'16px',

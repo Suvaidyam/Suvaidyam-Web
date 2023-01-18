@@ -65,7 +65,6 @@ const AboutUs = () => {
           <img src={girl} alt="" className='lg:w-[590px] lg:h-[350px] lg:-mt-6 lg:px-10' />
         </div>
       </div>
-
       {/* Card components */}
       <Card />
       {/* Slider Components */}

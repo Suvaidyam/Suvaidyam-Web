@@ -2,7 +2,8 @@ import React from "react";
 import hand from "../../Assets/hand-img-.webp";
 import girl from "../../Assets/girls-img.webp";
 import { Card } from "./Card";
-import { Slider } from "./Slider";
+import CardSlider from "./CardSlider";
+
 
 const AboutUs = () => {
   return (
@@ -89,7 +90,7 @@ const AboutUs = () => {
       {/* Card components */}
       <Card />
       {/* Slider Components */}
-      <Slider />
+      <CardSlider />
     </>
   );
 };

@@ -3,6 +3,7 @@ import Slider from "./Slider/Slider";
 import girlImg from "../../Assets/girls-img.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
@@ -65,19 +66,12 @@ const Home = () => {
                 empower individuals, families, and in turn rural communities to
                 thrive and grow.
               </p>
-              <p className="underline md:text-xs md:mt-7 mt-2 tracking-widest">
-                <a href="">MORE ABOUT US</a>
-              </p>
               <p className='underline md:text-xs text-[17px] md:mt-7 mt-2 tracking-widest'><a href="" >MORE ABOUT US</a></p>
             </div>
-            <div className='w-[30%] hidden md:block'>
-              {/*  */}
-            </div>
-            <div className="w-[30%] hidden md:block">{/*  */}</div>
           </div>
         </div>
         {/* SUVAIDYAM DOWN TO*/}
-        <div className="w-full  block md:flex gap-24">
+        <div className="w-full  block md:flex">
           <div className="md:w-[60%]">
             <img src={girlImg} alt="girls imaze" />
           </div>
@@ -97,12 +91,15 @@ const Home = () => {
                   Help us in bridging the gap that is keeping rural India out of
                   the life-changing tech industry.
                 </p>
-                <button
-                  className="md:w-40 w-44 md:h-12 h-10 text-[11px] md:mt-16 mt-7 font-extrabold border-[3px] border-[#0C1D39]
-                hover:bg-[#0C1D39] hover:duration-700 hover:text-white tracking-widest"
-                >
-                  GET INVOLVED
-                </button>
+                <Link to=''>
+                  <button
+                    className="md:w-40 w-44 md:h-12 h-10 text-[12px] md:mt-16 mt-7 font-extrabold
+                     border-[2px] border-bgblue hover:bg-bgblue hover:duration-700 text-bgblue
+                      hover:text-white tracking-widest"
+                  >
+                    GET INVOLVED
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -123,8 +120,8 @@ const Home = () => {
         <div className='md:h-[480px] w-full py-10  justify-center flex items-center px-[22px] text-center bg-bgblue text-white'>
           <div>
             {/* <div> */}
-              <p className='md:text-[38px] text-[29px] font-thin tracking-wider'>A little guidance goes a long way...</p>
-              <p className='border-t-4  mt-5 md:mx-[46.5%] mx-[43%]'></p>
+            <p className='md:text-[38px] text-[29px] font-thin tracking-wider'>A little guidance goes a long way...</p>
+            <p className='border-t-4  mt-5 md:mx-[46.5%] mx-[43%]'></p>
             {/* </div> */}
             <div className='mt-5 font-fontspar text-[17.5px]'>
               <p>We are empowering the youth of rural India to choose careers in the tech domain</p>

@@ -57,7 +57,7 @@ export const Card = () => {
         <div className="bg-gray-50 lg:w-[480px] lg:mx-3 lg:flex pb-7 items-center ">
           <img
             src={desktop}
-            alt="encourage"
+            alt="desktop"
             className="rounded-full lg:w-52 w-[190px] px-6 py-5"
           />
           <div className="lg:mt-0 mt-4 lg:mx-0 mx-6">
@@ -70,7 +70,7 @@ export const Card = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-50 lg:w-[480px] lg:mx-3 lg:flex pb-7 items-center">
+        <div className="bg-gray-50 lg:w-[480px] lg:mt-0 mt-4 lg:mx-3 lg:flex pb-7 items-center">
           <img
             src={board}
             alt="encourage"

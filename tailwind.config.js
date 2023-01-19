@@ -11,7 +11,7 @@ module.exports = {
         playfire:"'Playfair Display', serif",
         fontsans:"'Source Sans Pro', sans-serif",
         fontspar:"'Zen Kurenaido', sans-seri",
-        fontNunito:" 'Nunito Sans', sans-serif"
+        fontserif: "'Palanquin', sans-serif"
       },
       fontSize:{
         fsm:'16px',

@@ -7,9 +7,9 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[510px] lg:mt-16 mt-8 text-bgblue">
+      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[495px] lg:mt-16 mt-8 text-bgblue">
         <div>
-          <h1 className="lg:text-xl text-[18px] font-semibold">HOW WE WORK </h1>
+          <h1 className="lg:text-[18px] text-[18px] font-semibold">HOW WE WORK </h1>
           <h1 className="lg:text-5xl text-4xl lg:mt-4 mt-2 from-neutral-400">
             We EMPOWER
           </h1>

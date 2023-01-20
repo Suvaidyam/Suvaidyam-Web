@@ -7,16 +7,16 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[495px] lg:mt-16 mt-8 text-bgblue">
+      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[495px] lg:mt-16 py-8 text-bgblue">
         <div>
-          <h1 className="lg:text-[18px] text-[18px] font-semibold">HOW WE WORK </h1>
-          <h1 className="lg:text-5xl text-4xl lg:mt-4 mt-2 from-neutral-400">
+          <h1 className="lg:text-[18px] text-[25px] font-semibold">HOW WE WORK </h1>
+          <h1 className="lg:text-5xl text-[40px] lg:mt-4 mt-2 from-neutral-400">
             We EMPOWER
           </h1>
         </div>
       </div>
       {/* card guide */}
-      <div className="lg:flex justify-center mt-16 lg:w-full ">
+      <div className=" w-full lg:flex justify-center lg:mt-16 lg:w-full ">
         <div className="bg-[#F9F9F9] lg:w-[480px] w-full lg:mx-3 lg:flex pb-7 items-center">
           <img
             src={encourage}

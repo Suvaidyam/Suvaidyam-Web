@@ -31,7 +31,7 @@ const Teams = () => {
             </div>
             <div className="w-full  lg:w-1/2 h-full flex items-end order-1 lg:order-2">
               <div className="w-full lg:w-[95%] h-[73%] bg-white mb-4 ml-0 lg:ml-8 relative z-10">
-                <div className="w-full h-full relative lg:absolute lg:left-14 lg:bottom-14"><img className='w-full' src={founder} alt="" /></div>
+                <div className="w-full h-full relative lg:absolute lg:left-14 lg:bottom-14"><img className='w-full h-full' src={founder} alt="" /></div>
               </div>
             </div>
           </div>

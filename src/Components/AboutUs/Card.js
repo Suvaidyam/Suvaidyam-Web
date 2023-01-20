@@ -7,7 +7,7 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[495px] lg:mt-16 py-8 text-bgblue">
+      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[490px]  lg:mt-16 py-8 text-bgblue">
         <div>
           <h1 className="lg:text-[18px] text-[25px] font-semibold">HOW WE WORK </h1>
           <h1 className="lg:text-5xl text-[40px] lg:mt-4 mt-2 from-neutral-400">
@@ -16,8 +16,8 @@ export const Card = () => {
         </div>
       </div>
       {/* card guide */}
-      <div className=" w-full lg:flex justify-center lg:mt-16 lg:w-full ">
-        <div className="bg-[#F9F9F9] lg:w-[480px] w-full lg:mx-3 lg:flex pb-7 items-center">
+      <div className=" w-full lg:flex justify-center lg:mt-16  lg:w-full ">
+        <div className="bg-[#F9F9F9] lg:w-[480px] w-full lg:mx-2 lg:flex pb-7 items-center">
           <img
             src={encourage}
             alt="encourage"
@@ -35,7 +35,7 @@ export const Card = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-50 lg:w-[480px] lg:mx-3 lg:mt-0 mt-4 lg:flex pb-7 items-center">
+        <div className="bg-gray-50 lg:w-[480px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
           <img
             src={books}
             alt="Books"
@@ -54,7 +54,7 @@ export const Card = () => {
         </div>
       </div>
       <div className="lg:flex justify-center mt-4">
-        <div className="bg-gray-50 lg:w-[480px] lg:mx-3 lg:flex pb-7 items-center ">
+        <div className="bg-gray-50 lg:w-[480px] lg:mx-1 lg:flex pb-7 items-center ">
           <img
             src={desktop}
             alt="desktop"
@@ -70,7 +70,7 @@ export const Card = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-50 lg:w-[480px] lg:mt-0 mt-4 lg:mx-3 lg:flex pb-7 items-center">
+        <div className="bg-gray-50 lg:w-[480px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
           <img
             src={board}
             alt="encourage"

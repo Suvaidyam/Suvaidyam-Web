@@ -16,35 +16,35 @@ const AboutUs = () => {
             <img
               src={hand}
               alt="hand-img"
-              className="w-full md:h-[500px] h-[230px]  lg:bg-contain lg:w-[700px] lg:h-[750px]  bg-no-repeat"
+              className="w-full md:h-[500px] h-[230px]  lg:bg-contain lg:w-[700px] lg:h-[740px]  bg-no-repeat"
             />
           </div>
           {/* our mission */}
-          <div className="bg-[#0C1D39] lg:w-[700px] lg:h-[750px] lg:flex lg:justify-end w-full">
-            <div className="lg:w-[370px]  mx-6   lg:pt-12 lg:pb-0 pb-5">
-              <p className="text-white lg:pt-0 pt-5  text-[54px] lg:text-7xl ">
+          <div className="bg-[#0C1D39] lg:w-[700px] lg:h-[740px] lg:flex lg:justify-end w-full">
+            <div className="lg:w-[370px]  mx-6 lg:mx-0 md:mx-14 lg:pt-14 lg:pb-0 pb-5 md:pt-14">
+              <p className="text-white lg:pt-0 pt-5 text-[54px] lg:text-7xl md:text-8xl ">
                 OUR
               </p>
-              <p className="text-white  text-[54px] lg:text-7xl  lg:mt-5">
+              <p className="text-white md:mt-10 text-[54px] lg:text-7xl md:text-8xl lg:mt-5">
                 MISSION
               </p>
-              <p className="text-white lg:text-thin  lg:text-[16px] text-xl lg:mt-12 mt-6">
+              <p className="text-white text-thin lg:text-[16px] text-xl lg:mt-12 mt-6">
                 At Suvaidyam, we are working for a world where the rural youth
                 will be able to choose a career in technology and escape menial
                 jobs they are forced to pick up because of lack of opportunities
                 and exposure in rural India.
               </p>
-              <p className="text-white lg:text-thin lg:text-[16px] text-xl mt-6">
+              <p className="text-white text-thin lg:text-[16px] text-xl mt-6">
                 We are working in regions where most children don't have easy
                 access to computer education growing up. Through our digital
                 programs, we are providing them the knowledge, practical skills
                 and deeper understanding of all aspects of computer technology.
               </p>
-              <p className="text-white lg:text-base text-xl w-full mt-10">
+              <p className="text-white lg:text-base text-xl w-full mt-16  md:text-4xl">
                 - Amresh Kumar, Founder
               </p>
             </div>
-            <div className="lg:w-[150px] "></div>
+            <div className="lg:w-[170px] "></div>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const AboutUs = () => {
         </div>
         {/* paragraph */}
         <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7 ">
-          <p className=" text-gray-600 mt-7 lg:text-center lg:font-fontspar  text-xl lg:text-[17px]">
+          <p className=" text-gray-600 mt-7 lg:text-center lg:font-fontspar font-thin md:mx-14 text-xl lg:text-[17px]">
             Our vision is to empower the rural youth and make them reach their
             full potential. We want to uplift rural India by educating its young
             adults in
@@ -93,7 +93,7 @@ const AboutUs = () => {
             <img
               src={girl}
               alt=""
-              className="lg:w-[510px] h-[370px] lg:-mt-4 md:mx-8 bg-cover" />
+              className="lg:w-[510px] h-[330px] lg:-mt-4 md:mx-8 bg-cover" />
           </div>
         </div>
         {/* Card components */}

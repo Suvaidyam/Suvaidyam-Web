@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="flex gap-8 items-center">
                     <div className='flex gap-6'>
                         {nav.map(items => (
-                            <NavLink to={items.to} className='font-semibold text-[15px] hover:text-slate-500
+                            <NavLink key={items.name} to={items.to} className='font-semibold text-[15px] hover:text-slate-500
                              text-[#0C1D39]'>{items.name}</NavLink>
                         ))}
                     </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     <div className="w-3/5 h-screen bg-[#0C1D39] absolute left-0 top-0">
                         <div className='w-full flex flex-col gap-1 pt-20 px-8'>
                             {nav.map(items => (
-                                <NavLink to={items.to} className='font-light tracking-widest text-[20px] hover:text-red-600
+                                <NavLink key={items.name} to={items.to} className='font-light tracking-widest text-[20px] hover:text-red-600
                            text-white border-b w-4/5 h-12' onClick={() => setOpenNav(items.click)}>{items.name}</NavLink>
                             ))}
                         </div>

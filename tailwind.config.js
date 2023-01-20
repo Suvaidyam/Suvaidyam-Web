@@ -12,7 +12,8 @@ module.exports = {
         fontsans:"'Source Sans Pro', sans-serif",
         fontspar:"'Zen Kurenaido', sans-seri",
         fontserif: "'Palanquin', sans-serif",
-        fontNunito:" 'Nunito Sans', sans-serif"
+        fontNunito:" 'Nunito Sans', sans-serif",
+        fontthin:" 'Josefin Slab', serif",
       },
       fontSize:{
         fsm:'16px',

@@ -30,7 +30,7 @@ const GetInvolved = () => {
         </div>
         <div className='md:flex block md:mt-10 mt-3 md:h-[120px] px-6 md:px-0'>
           <div className='md:w-[30%] flex md:justify-center font-serif'>
-            <p className='w-[20px] md:pl-24 pb-4'>LOREM IPSUM</p>
+            <p className='w-[20px] md:pl-24 text-[17px] pb-4 font-fontthin'>LOREM IPSUM</p>
           </div>
           <div className='md:w-[50%] md:border-l border-gray-500 md:pl-10 font-fontNunito'>
             <p>
@@ -46,7 +46,7 @@ const GetInvolved = () => {
         </div>
         <div className='md:flex block md:mt-10 mt-3 md:h-[120px] px-6 md:px-0'>
           <div className='md:w-[30%] flex md:justify-center font-serif'>
-            <p className='w-[20px] md:pl-24 pb-4'>ADNTUN 10</p>
+            <p className='w-[20px] md:pl-24 pb-4 font-fontthin'>ADNTUN 10</p>
           </div>
           <div className='md:w-[50%] md:border-l border-gray-500 md:pl-10 font-fontNunito'>
             <p>
@@ -62,7 +62,7 @@ const GetInvolved = () => {
         </div>
         <div className='md:flex block md:mt-10 mt-3 md:h-[120px] px-6 md:px-0'>
           <div className='md:w-[30%] flex md:justify-center font-serif'>
-            <p className=' md:pl-[160px] pb-4'>NDDNFN <br /> 11 PLF</p>
+            <p className=' md:pl-[160px] pb-4 font-fontthin'>NDDNFN <br /> 11 PLF</p>
           </div>
           <div className='md:w-[50%] md:border-l border-gray-500 md:pl-10 font-fontNunito'>
             <p>

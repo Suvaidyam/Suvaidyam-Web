@@ -31,15 +31,14 @@ const Home = () => {
           </p>
         </div>
         {/* SUVAIDYAM DOWN */}
-        <div className='block md:flex w-full md:pb-16 pb-4 pt-10 px-5 md:px-0 md:gap-28'>
-          <div className='md:w-1/2 md:flex'>
-            <div className='w-[38%] hidden md:block'></div>
-            <div className='md:w-[51%] lg:float-right'>
+        <div className='block md:flex w-full pb-4 pt-10 px-6 md:pb-16 md:px-5 md:gap-10 lg:gap-24 '>
+          <div className='md:w-1/2 md:flex justify-end'>
+            <div className='lg:w-[365px] md:mr-10'>
               <div className=' md:flex items-center md:gap-5 '>
                 <div><p className='border-t w-20 border-red-500 hidden md:block'></p></div>
                 <div><p className='font-thin md:text-xs text-[16px] tracking-widest'>Bridging the technology gap</p></div>
               </div>
-              <div className="md:pt-6 pt-2 font-[playfire] text-[27px] md:text-3xl w-full  text-bgblue">
+              <div className="md:pt-6 pt-2 font-[playfire] text-[27px] lg:text-[35px] md:text-3xl w-full  text-bgblue">
                 <p>
                   Every individual deserves to reach their full potential and we
                   want to make sure that happens
@@ -48,7 +47,7 @@ const Home = () => {
             </div>
           </div>
           <div className='md:w-1/2 flex'>
-            <div className='md:w-[70%] md:text-[17.5px] text-[20px] font-fontserif text-black tracking-wide'>
+            <div className='lg:w-[410px] md:text-[17.5px] text-[20px] font-fontserif text-black tracking-wide'>
               <p>
                 Indian villages have the potential to serve as centres of
                 advanced technology and innovation. Our primary objective is to
@@ -71,15 +70,16 @@ const Home = () => {
           </div>
         </div>
         {/* SUVAIDYAM DOWN TO*/}
-        <div className="w-full  block md:flex">
-          <div className="md:w-[50%]">
-            <img src={girlImg} className='md:h-[580px] px-3 md:px-0' alt="girls imaze" />
+        <div className="w-full  block  lg:flex md:gap-10 lg:gap-6">
+          <div className="lg:w-[50%] ld:w-[50%]">
+            <img src={girlImg} className='md:h-[580px] w-full px-6 lg:px-0' alt="girls imaze" />
           </div>
-          <div className='md:w-[50%] text-center md:text-start px-5 flex'>
-            <div className='lg:pl-16'>
+          <div className='lg:w-[50%] md:text-start text-center px-6'>
+            <div className='lg:pl-16 md:text-center lg:text-start'>
               <p className='font-extrabold md:text-[55px] text-[45px] tracking-[12px] text-bgblue pt-8'>WHY</p>
               <p className='font-bold text-bgblue pb-8 text-lg tracking-widest'>JOIN HANDS</p>
-              <div className="text-[18px] lg:pr-48 md:text-[17px] font-fontserif text-bgblue tracking-wide">
+              <div className="md:text-[17px] lg:w-[400px] md:px-32 lg:px-0 text-[18px] font-fontserif
+               text-bgblue tracking-wide">
                 <p>
                   Barriers such as lack of guidance, exposure,
                   infrastructure and resources prevent the youth
@@ -93,7 +93,7 @@ const Home = () => {
                 </p>
                 <Link to='/involved'>
                   <button
-                    className="md:w-40 w-44 md:h-12 h-10 text-[12px] md:mt-16 mt-7 font-extrabold
+                    className="md:w-40 text-[12px] md:h-12 w-44 h-10 md:mt-16 mt-7 font-extrabold
                      border-[2px] border-bgblue hover:bg-bgblue hover:duration-700 text-bgblue
                       hover:text-white tracking-widest"
                   >
@@ -105,9 +105,9 @@ const Home = () => {
           </div>
         </div>
         {/* SUVAIDYAM DOWN Three*/}
-        <div className="md:flex justify-center px-7 md:px-0 gap-20 items-center mt-20">
+        <div className="md:flex justify-center px-7 md:px-3 gap-20 items-center mt-20">
           <div>
-            <p className="font-serif text-bgblue text-3xl md:text-5xl">
+            <p className="font-serif text-bgblue text-3xl lg:text-5xl md:text-[36px]">
               Partner Organisations
             </p>
           </div>
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
         {/* svg */}
         <section>
-          <div className="w-full h-40 px-8  lg:px-24 xl:px-60 mt-2 mb-10">
+          <div className="w-full h-40 px-6  lg:px-24 xl:px-60 mt-2 mb-10">
             <div className="w-full h-full flex gap-4 md:gap-8 flex-wrap items-center justify-between">
               <div className="w-20 md:w-28 min-w-[80px] md:min-w-[120px]">
                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 66.81 15.782" viewBox="0 0 66.81 15.782"
@@ -198,7 +198,7 @@ const Home = () => {
         </section>
 
         {/* SUVAIDYAM DOWN four*/}
-        <div className='md:h-[480px] w-full py-10  justify-center flex items-center px-[22px] text-center bg-bgblue text-white'>
+        <div className='md:h-[480px] w-full py-10  justify-center flex items-center px-6 text-center bg-bgblue text-white'>
           <div>
             <p className='md:text-[38px] text-[29px] font-thin tracking-wider'>A little guidance goes a long way...</p>
             <p className='border-t-4  mt-5 md:mx-[46.5%] mx-[43%]'></p>

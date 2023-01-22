@@ -108,7 +108,7 @@ const Home = () => {
         {/* SUVAIDYAM DOWN Three*/}
         <div className="w-full md:flex justify-between px-6  lg:px-24 xl:px-48 items-center mt-20">
           <div>
-            <p className="font-serif text-bgblue text-3xl lg:text-5xl md:text-[36px]">
+            <p className="font-serif text-bgblue text-[29px] lg:text-5xl md:text-[36px]">
               Partner Organisations
             </p>
           </div>

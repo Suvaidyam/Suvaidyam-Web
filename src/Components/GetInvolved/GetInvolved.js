@@ -25,14 +25,14 @@ const GetInvolved = () => {
           </div>
         </div>
         {/* Get involved down */}
-        <div className='lg:pl-[250px] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
+        <div className='lg:pl-[19%] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
           <p>WAYS TO GIVE</p>
         </div>
         <div className='md:flex md:px-5 md:h-[120px]  block md:mt-10 mt-3 px-6 '>
           <div className='lg:w-[30%]  flex md:justify-center font-serif'>
             <p className='lg:pl-24 md:w-[110px] w-[98px] text-[17px] pb-4 font-fontthin'>LOREM IPSUM</p>
           </div>
-          <div className='lg:w-[50%] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
+          <div className='lg:w-[700px] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
             <p>
               Tell people more about the services you offer. Use this repeating layout to display content. It's an
               easy way to keep your customers up to date with what's happening. Want to make this content
@@ -41,34 +41,32 @@ const GetInvolved = () => {
           </div>
         </div>
         {/*  Get involved down 2 */}
-        <div className='lg:pl-[250px] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
+        <div className='lg:pl-[19%] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
           <p>VOLUNTEER</p>
         </div>
         <div className='md:flex md:px-5 md:h-[120px]  block md:mt-10 mt-3 px-6'>
           <div className='lg:w-[30%]  flex md:justify-center font-serif'>
             <p className='lg:pl-24 md:w-[110px] w-[80px] text-[17px] pb-4 font-fontthin'>ADNTUN 10</p>
           </div>
-          <div className='lg:w-[50%] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
+          <div className='lg:w-[700px] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
             <p>
               Tell people more about the services you offer. Use this repeating layout to display content. It's an
-              easy way to keep your customers up to date with what's happening. Want to make this content
-              your own? Simple drag and drop elements like text, images and links, or connect to data from your collection.
+              easy way to keep your customers up to date with what's happening. Want to make this content your own? .
             </p>
           </div>
         </div>
         {/*  Get involved down 3 */}
-        <div className='lg:pl-[250px] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
+        <div className='lg:pl-[18%] md:mt-24 md:pl-4 mt-12 text-2xl font-semibold text-bgblue tracking-wider pl-5'>
           <p>BE OUR CHEERLEADER</p>
         </div>
         <div className='md:flex md:px-5 md:h-[120px]  block md:mt-10 mt-3 px-6'>
           <div className='lg:w-[30%]  flex md:justify-center font-serif'>
-            <p className=' lg:pl-24 md:w-[110px]  text-[17px] pb-4 font-fontthin'>NDDNFN <br /> 11 PLF</p>
+            <p className=' lg:pl-24 md:w-[138px]  text-[17px] pb-4 font-fontthin'>NDDNFN 11 PLF</p>
           </div>
-          <div className='lg:w-[50%] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
+          <div className='lg:w-[700px] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
             <p>
-              Tell people more about the services you offer. Use this repeating layout to display content. It's an
-              easy way to keep your customers up to date with what's happening. Want to make this content
-              your own? Simple drag and drop elements like text, images and links, or connect to data from your collection.
+            Tell people more about the services you offer. Use this repeating layout to display content. It's an easy 
+            way to keep your customers up to date with what's happening.
             </p>
           </div>
         </div>

@@ -44,7 +44,7 @@ const AboutUs = () => {
                 - Amresh Kumar, Founder
               </p>
             </div>
-            <div className="lg:w-[170px] "></div>
+            <div className="lg:w-[190px] "></div>
           </div>
         </div>
 
@@ -59,11 +59,10 @@ const AboutUs = () => {
         </div>
         {/* paragraph */}
         <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7 ">
-          <p className=" text-gray-600 mt-7 lg:text-center lg:font-fontspar font-thin md:mx-14 text-xl lg:text-[17px]">
+          <p className=" font-light mt-7 lg:text-center lg:font-fontspar  md:mx-14 text-[19px] lg:text-[17px] lg:px-28">
             Our vision is to empower the rural youth and make them reach their
             full potential. We want to uplift rural India by educating its young
             adults in
-            <p></p>
             computer technology and creating opportunities for them to create and
             define their own success.
           </p>
@@ -73,7 +72,7 @@ const AboutUs = () => {
           <div className="lg:w-1/2 lg:pl-44 my-10 mb-8 lg:mx-0 mx-4  ">
             <h1 className="text-2xl text-bgblue  lg:px-0 p-3">WHO WE ARE</h1>
             <div>
-              <p className="my-7 font-fontspar lg:text-[18px] text-xl md:text-5xl">
+              <p className="my-7 font-fontspar lg:text-[18px] text-xl">
                 Amresh Kumar founded Suvaidyam in the summer of 2021 with the aim to
                 unleash the full potential of the young adults born and brought up
                 in Indian villages.
@@ -93,7 +92,7 @@ const AboutUs = () => {
             <img
               src={girl}
               alt=""
-              className="lg:w-[510px] h-[330px] lg:-mt-4 md:mx-8 bg-cover" />
+              className="lg:w-[510px] lg:h-[330px] w-full h-full lg:-mt-4 md:mx-8 bg-cover" />
           </div>
         </div>
         {/* Card components */}

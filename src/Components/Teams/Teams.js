@@ -71,14 +71,10 @@ const Teams = () => {
               SUVAIDYAM
             </p>
           </div>
-<<<<<<< HEAD
           <hr
             data-aos="zoom-out"
             className="lg:w-8 m-auto bg-black lg:h-1 md:h-2 md:mt-7 mt-14 md:w-20"
           />
-=======
-          <hr className='lg:w-9 m-auto bg-black lg:h-1  md:mt-14 lg:mt-5 mt-3 md:w-20 md:h-2 w-9 h-1' />
->>>>>>> dev_sujeet
         </div>
         {/*bottom rounded image */}
         <div className="w-full lg:flex lg:justify-center mt-16">
@@ -90,7 +86,6 @@ const Teams = () => {
                 className="rounded-full flex justify-center lg:w-full md:w-[500px] w-[250px] bg-cover "
               />
             </div>
-<<<<<<< HEAD
             <div className="w-full">
               <p className="text-center lg:text-[21px] opacity-80 mt-4 lg:-ml-5 md:text-6xl text-3xl">
                 {" "}
@@ -151,34 +146,6 @@ const Teams = () => {
                 I’m a paragraph. Double click me or click Edit Text, it's easy.
               </p>
             </div>
-=======
-            <div className='w-full'>
-              <p className='text-center lg:text-[21px] opacity-80 lg:mt-5 lg:-ml-5 md:text-6xl md:mt-10 text-3xl mt-4'> Abc Defg</p>
-              <p className='text-center md:text-3xl md:mt-10 text-blue-400 font-sans font-semibold text-[16px] lg:text-[13px] tracking-[3px] mt-4 lg:mt-4'>Lorem Ipsum</p>
-              <div className='flex justify-center  mt-4'>
-                <p className='lg:w-52 w-64 lg:mt-6 md:mt-8 font-thin lg:text-base text-[20px] lg:mx-0 md:mx-32 md:w-fit  md:text-4xl'>I’m a paragraph. Double click me  or click Edit Text, it's easy.</p>
-              </div>
-            </div>
-          </div>
-          <div className='lg:mx-14 md:mx-8'>
-              <div className='flex justify-center lg:mt-0 mt-14 '>
-                <img src={vivek} alt='' className='rounded-full lg:w-fit md:w-[500px]  w-[250px] bg-cover' />
-              </div>
-              <p className='text-center lg:text-[21px] opacity-80 lg:mt-4 md:text-6xl mt-4  md:mt-10 text-3xl'>Zxydef Wei</p>
-              <p className='text-center md:text-3xl md:mt-10 mt-4  text-blue-400 font-sans font-semibold lg:text-[13px] tracking-[3px] ml-5 lg:mt-4'>Lorem Ipsum</p>
-              <div className='w-full flex justify-center mt-4'>
-                <p className='lg:w-[240px] w-[290px] md:mt-8 lg:mx-0 md:mx-30 md:w-fit  md:text-4xl lg:mt-6 font-thin lg:text-base text-[20px]'>I’m a paragraph. Double click me <span className='flex justify-center'> or click Edit Text, it's easy.</span></p>
-              </div>
-          </div>
-          <div className='lg:mx-12 md:mx-8 '>
-              <div className='flex justify-center lg:mt-0 mt-14'>
-                <img src={farhan} alt='' className='rounded-full lg:w-full md:w-[500px]  w-[250px] bg-cover' />
-              </div>
-              <p className='text-center lg:text-[21px] opacity-80 lg:mt-4 text-3xl md:mt-10 md:text-6xl'> Ancwsd Desn</p>
-              <p className='text-center md:text-3xl md:mt-10 mt-4 text-blue-400 font-sans font-semibold lg:text-[13px] tracking-[3px] lg:mt-4'>Lorem Ipsum</p>
-              <div className='flex justify-center mt-4'>
-                <p className='lg:w-52 w-64 md:mt-10  lg:mx-0 md:mx-32 md:w-fit  md:text-4xl lg:mt-6 font-thin lg:text-base text-[20px] '>I’m a paragraph. Double click  me  or click  Edit Text, it's easy.</p>
-              </div>
           </div>
         </div>
         {/* team button */}

@@ -74,7 +74,7 @@ const AboutUs = () => {
             <h1 className="text-2xl text-bgblue  lg:px-0 p-3">WHO WE ARE</h1>
             <div>
               <p className="my-7 font-fontspar lg:text-[18px] text-xl md:text-5xl">
-                Amresh Kumar founded Suvaidyam in the summer of 20__ with the aim to
+                Amresh Kumar founded Suvaidyam in the summer of 2021 with the aim to
                 unleash the full potential of the young adults born and brought up
                 in Indian villages.
               </p>

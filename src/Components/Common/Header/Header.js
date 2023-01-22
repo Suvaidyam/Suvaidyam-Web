@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../../Assets/Logo.png";
 import Navbar from "./Navbar";
 
@@ -9,7 +10,7 @@ const Header = () => {
         {/* Logo */}
         <div className="w-full h-full max-w-[1720px] mx-auto flex px-5 lg:px-20 justify-between">
         <div className=" h-full flex items-center ">
-          <img className="w-3/5 lg:w-4/5" src={Logo} alt="Logo" />
+          <Link to='/'><img className="w-3/5 lg:w-4/5" src={Logo} alt="Logo" /></Link>
         </div>
         <div className=" h-full flex  items-center justify-center">
           <Navbar />

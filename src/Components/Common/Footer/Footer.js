@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full ">
       {/* footer */}
-       <div className="w-full h-auto md:h-96 px-12 md:px-4 lg:px-24 xl:px-48 ">
+       <div className="w-full max-w-[1720px] mx-auto h-auto md:h-96 px-6 md:px-4 lg:px-24 xl:px-48 ">
           <div className="w-full h-full py-12">
             <div className="w-full h-auto md:h-1/2 flex flex-col gap-4 justify-between">
              <div className="">
@@ -28,7 +29,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <p className='text-fsm font-light'>(XXX) XXX-XXXX</p>
-                    <a href="#" className='text-fsm font-light'>sampleemail@sample.com</a>
+                    <Link className='text-fsm font-light'>sampleemail@sample.com</Link>
                   </div>
                </div>
                <div className="h-full flex flex-col justify-end gap-3 md:gap-9">
@@ -51,10 +52,13 @@ const Footer = () => {
           </div>
        </div>
        {/* Copyright */}
-       <div className="w-full h-16 bg-bgfooter px-0 lg:px-48 flex items-center
+       <div className="w-full bg-bgfooter h-16 ">
+       <div className="w-full max-w-[1720px] mx-auto h-full px-0 lg:px-48 flex items-center
         justify-center lg:justify-start">
         <p className='text-white font-light text-sm'> © 2022 by Suvaidyam, City, State</p>
        </div>
+       </div>
+       
      </div>
     </>
   )

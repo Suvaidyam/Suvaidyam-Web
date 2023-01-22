@@ -14,6 +14,7 @@ module.exports = {
         fontserif: "'Palanquin', sans-serif",
         fontNunito:" 'Nunito Sans', sans-serif",
         fontthin:" 'Josefin Slab', serif",
+        fontgetDown: "'Jost', sans-serif",
       },
       fontSize:{
         fsm:'16px',

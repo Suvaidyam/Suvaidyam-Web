@@ -24,7 +24,7 @@ const ContactUs = () => {
           </label>
           <input
             type="text"
-            className="border-b border-gray-500 outline-none w-[310px] md:w-[40%] bg-transparent md:pl-14"
+            className="lg:w-[40%] md:w-[60%] border-b border-gray-500 outline-none w-[310px] bg-transparent md:pl-14"
             id="name"
           />
         </div>
@@ -37,7 +37,7 @@ const ContactUs = () => {
           </label>
           <input
             type="text"
-            className="border-b border-gray-500 outline-none w-[310px] md:w-[40%] bg-transparent md:pl-14"
+            className="lg:w-[40%] md:w-[60%] border-b border-gray-500 outline-none w-[310px] bg-transparent md:pl-14"
             id="email"
           />
         </div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
           </label>
           <input
             type="text"
-            className="border-b border-gray-500 outline-none w-[310px] md:w-[40%] bg-transparent md:pl-20"
+            className="lg:w-[40%] md:w-[60%] border-b border-gray-500 outline-none w-[310px] bg-transparent md:pl-20"
             id="message"
           />
         </div>

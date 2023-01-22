@@ -73,7 +73,7 @@ const Teams = () => {
           </div>
           <hr
             data-aos="zoom-out"
-            className="lg:w-8 m-auto bg-black lg:h-1 md:h-2 md:mt-7 mt-14 md:w-20"
+            className="lg:w-8 m-auto bg-black lg:h-1 md:h-2 md:mt-7 lg:mt-10 md:w-20 w-8 h-1 mt-3 "
           />
         </div>
         {/*bottom rounded image */}
@@ -135,7 +135,6 @@ const Teams = () => {
               />
             </div>
             <p className="text-center lg:text-[21px] opacity-80 mt-4 text-3xl md:text-6xl">
-              {" "}
               Ancwsd Desn
             </p>
             <p className="text-center md:text-3xl   text-blue-400 font-sans font-semibold lg:text-[13px] tracking-[3px] mt-4">

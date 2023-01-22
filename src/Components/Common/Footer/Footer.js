@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <div className="w-full ">
+      <div className="w-full mt-auto">
       {/* footer */}
        <div className="w-full max-w-[1720px] mx-auto h-auto md:h-96 px-6 md:px-4 lg:px-24 xl:px-48 ">
           <div className="w-full h-full py-12">

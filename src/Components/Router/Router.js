@@ -10,7 +10,7 @@ import GetInvolved from '../GetInvolved/GetInvolved';
 
 const Router = () => {
   return (
-    <div>
+    <div className='min-h-screen flex flex-col'>
       <BrowserRouter>
       <Header/>
           <Routes>

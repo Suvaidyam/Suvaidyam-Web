@@ -78,17 +78,16 @@ const Teams = () => {
         </div>
         {/*bottom rounded image */}
         <div className="w-full lg:flex lg:justify-center mt-16">
-          <div className="lg:mx-14  md:mx-8">
+          <div className="lg:mx-16  md:mx-8">
             <div className="w-full flex justify-center md:mt-10 lg:mt-0">
               <img
                 src={gyan}
-                alt=""
+                alt="Gyan"
                 className="rounded-full flex justify-center lg:w-full md:w-[500px] w-[250px] bg-cover "
               />
             </div>
             <div className="w-full">
               <p className="text-center lg:text-[21px] opacity-80 mt-4 lg:-ml-5 md:text-6xl text-3xl">
-                {" "}
                 Abc Defg
               </p>
               <p className="text-center md:text-3xl text-blue-400 font-sans font-semibold text-[16px] lg:text-[13px] tracking-[3px] mt-4">
@@ -102,11 +101,11 @@ const Teams = () => {
               </div>
             </div>
           </div>
-          <div className="lg:mx-14 md:mx-8">
+          <div className="lg:mx-16 md:mx-8">
             <div className="flex justify-center lg:mt-0 mt-14 ">
               <img
                 src={vivek}
-                alt=""
+                alt="vivek"
                 className="rounded-full lg:w-fit md:w-[500px]  w-[250px] bg-cover"
               />
             </div>
@@ -120,17 +119,16 @@ const Teams = () => {
               <p className="lg:w-[240px] w-[290px]  lg:mx-0 md:mx-30 md:w-fit  md:text-4xl lg:mt-6 font-thin lg:text-base text-[20px]">
                 I’m a paragraph. Double click me{" "}
                 <span className="flex justify-center">
-                  {" "}
                   or click Edit Text, it's easy.
                 </span>
               </p>
             </div>
           </div>
-          <div className="lg:mx-12 md:mx-8 ">
+          <div className="lg:mx-16 md:mx-8 ">
             <div className="flex justify-center lg:mt-0 mt-14">
               <img
                 src={farhan}
-                alt=""
+                alt="Farhan"
                 className="rounded-full lg:w-full md:w-[500px]  w-[250px] bg-cover"
               />
             </div>

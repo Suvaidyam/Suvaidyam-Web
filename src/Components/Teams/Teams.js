@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import founder from "../../Assets/founder.webp";
-import gyan from "../../Assets/Gyan Shahane.webp";
-import vivek from "../../Assets/Vivek Kumar.webp";
-import farhan from "../../Assets/Farhan Shaikh.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,6 +7,29 @@ const Teams = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
+  const dataimg = [
+    {
+      img: 'https://static.wixstatic.com/media/nsplsh_2521f15e50f84b938544a61f0c8e80f0~mv2.jpg/v1/crop/x_662,y_0,w_3760,h_3776/fill/w_216,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Gyan%20Shahane.jpg',
+      Name: 'Abc Defg',
+      id_: 1,
+      post: 'Lorem Ipsum',
+      description: "I’m a paragraph. Double click me or click Edit Text, it's easy."
+    },
+    {
+      img: 'https://static.wixstatic.com/media/nsplsh_415a324637674ed6b900990f1949a8a7~mv2.jpg/v1/crop/x_1044,y_0,w_2399,h_2408/fill/w_216,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Vivek%20Kumar.jpg',
+      Name: 'Zxydef Wei',
+      id_: 2,
+      post: 'Lorem Ipsum',
+      descriptions: "I’m a paragraph. Double click me or click Edit Text, it's easy."
+    },
+    {
+      img: 'https://static.wixstatic.com/media/nsplsh_c0bc0df9977840899b5538663cfc433c~mv2.jpg/v1/crop/x_0,y_325,w_3000,h_3100/fill/w_210,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Farhan%20Shaikh.jpg',
+      Name: 'Ancwsd Desn',
+      id_: 3,
+      post: 'Lorem Ipsum',
+      description: "I’m a paragraph. Double click me or click Edit Text, it's easy."
+    },
+  ];
 
   return (
     <>
@@ -77,76 +97,30 @@ const Teams = () => {
           />
         </div>
         {/*bottom rounded image */}
-        <div className="w-full lg:flex lg:justify-center mt-16">
-          <div className="lg:mx-16  md:mx-8">
-            <div className="w-full flex justify-center md:mt-10 lg:mt-0">
-              <img
-                src={gyan}
-                alt="Gyan"
-                className="rounded-full flex justify-center lg:w-full md:w-[500px] w-[250px] bg-cover "
-              />
-            </div>
-            <div className="w-full">
-              <p className="text-center lg:text-[21px] opacity-80 mt-4 lg:-ml-5 md:text-6xl text-3xl">
-                Abc Defg
-              </p>
-              <p className="text-center md:text-3xl text-blue-400 font-sans font-semibold text-[16px] lg:text-[13px] tracking-[3px] mt-4">
-                Lorem Ipsum
-              </p>
-              <div className="flex justify-center  mt-4">
-                <p className="lg:w-52 w-64 lg:mt-6 font-thin lg:text-base text-[20px] lg:mx-0 md:mx-32 md:w-fit  md:text-4xl">
-                  I’m a paragraph. Double click me or click Edit Text, it's
-                  easy.
-                </p>
+        <div className="w-full h-full lg:flex md:justify-center lg:gap-24">
+          {/* map method */}
+          {dataimg.map(e => (
+            <div>
+              <div className="w-full flex justify-center mt-16">
+                <img src={e.img} alt="Gyan" className="rounded-full lg:w-[220px] lg:h-[220px] w-[270px] " />
+              </div>
+              <div className="w-full text-center lg:my-5 my-3 lg:text-[22px] text-[26px] opacity-90 ">
+                <p>{e.Name}</p>
+              </div>
+              <div className="text-center lg:ml-6 font-semibold text-blue-600 tracking-[3px] lg:text-[13px] text-[14px]">
+                <p>{e.post}</p>
+              </div>
+              <div className="w-full lg:mt-12 mt-3 flex justify-center">
+                <p className="lg:w-[250px] lg:text-sm text-center w-[400px] lg:pl-10 lg:px-0 px-8 font-thin text-xl">{e.descriptions}</p>
+              </div>
+              <div className="w-full flex justify-center">
+                <p className="lg:w-[240px] lg:text-sm w-[400px] text-center lg:pl-10 lg:px-0 px-16 font-thin  text-[20px] ">{e.description}</p>
               </div>
             </div>
-          </div>
-          <div className="lg:mx-16 md:mx-8">
-            <div className="flex justify-center lg:mt-0 mt-14 ">
-              <img
-                src={vivek}
-                alt="vivek"
-                className="rounded-full lg:w-fit md:w-[500px]  w-[250px] bg-cover"
-              />
-            </div>
-            <p className="text-center lg:text-[21px] opacity-80 mt-4 md:text-6xl text-3xl">
-              Zxydef Wei
-            </p>
-            <p className="text-center md:text-3xl  text-blue-400 font-sans font-semibold lg:text-[13px] tracking-[3px] ml-5 mt-4">
-              Lorem Ipsum
-            </p>
-            <div className="w-full flex justify-center mt-4">
-              <p className="lg:w-[240px] w-[290px]  lg:mx-0 md:mx-30 md:w-fit  md:text-4xl lg:mt-6 font-thin lg:text-base text-[20px]">
-                I’m a paragraph. Double click me{" "}
-                <span className="flex justify-center">
-                  or click Edit Text, it's easy.
-                </span>
-              </p>
-            </div>
-          </div>
-          <div className="lg:mx-16 md:mx-8 ">
-            <div className="flex justify-center lg:mt-0 mt-14">
-              <img
-                src={farhan}
-                alt="Farhan"
-                className="rounded-full lg:w-full md:w-[500px]  w-[250px] bg-cover"
-              />
-            </div>
-            <p className="text-center lg:text-[21px] opacity-80 mt-4 text-3xl md:text-6xl">
-              Ancwsd Desn
-            </p>
-            <p className="text-center md:text-3xl   text-blue-400 font-sans font-semibold lg:text-[13px] tracking-[3px] mt-4">
-              Lorem Ipsum
-            </p>
-            <div className="flex justify-center mt-4">
-              <p className="lg:w-52 w-64  lg:mx-0 md:mx-32 md:w-fit  md:text-4xl lg:mt-6 font-thin lg:text-base text-[20px] ">
-                I’m a paragraph. Double click me or click Edit Text, it's easy.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
         {/* team button */}
-        <div className="w-full mt-20 flex justify-center">
+        <div className="w-full mt-16 flex justify-center">
           <button className="outline-none duration-500  border-2 border-bgblue w-52 lg:w-52 md:w-64 text-bgblue h-10 text-[11.4px] font-bold tracking-[2px] hover:bg-bgblue hover:text-white">
             JOIN THE TEAM
           </button>

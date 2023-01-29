@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="w-full h-full">
-        <div className="w-full lg:flex lg:flex-row flex-col mt-20">
+        <div className="w-full  lg:flex lg:flex-row flex-col mt-20">
           {/* img */}
           <div>
             <img
@@ -79,7 +79,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div>
-              <p className="font-fontspar lg:text-[18px]  text-xl">
+              <p className="font-fontspar lg:text-[17px]  text-xl">
                 Together Team Suvaidyam is creating opportunities for the rural
                 youth in the tech industry. From teaching them how to write code to
                 providing them hands on practical skills, Team Suvaidyam is making
@@ -92,7 +92,7 @@ const AboutUs = () => {
             <img
               src={girl}
               alt=""
-              className="lg:w-[510px] lg:h-[330px] w-full h-full lg:-mt-4 md:mx-8 bg-cover" />
+              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 md:mx-8 bg-cover" />
           </div>
         </div>
         {/* Card components */}

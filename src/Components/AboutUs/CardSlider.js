@@ -16,7 +16,7 @@ const CardSlider = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -26,7 +26,6 @@ const CardSlider = () => {
   return (
     <>
       <Carousel responsive={responsive}>
-        <div></div>
         <div className=" mx-3">
           <img src={imgg} alt="" />
         </div>

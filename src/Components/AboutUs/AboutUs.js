@@ -21,11 +21,11 @@ const AboutUs = () => {
           </div>
           {/* our mission */}
           <div className="bg-[#0C1D39] lg:w-[700px] lg:h-[740px] lg:flex lg:justify-end w-full">
-            <div className="lg:w-[370px]  mx-6 lg:mx-0 md:mx-14 lg:pt-14 lg:pb-0 pb-5 md:pt-14">
-              <p className="text-white lg:pt-0 pt-5 text-[54px] lg:text-7xl md:text-8xl ">
+            <div className="lg:w-[370px]  mx-6 lg:mx-0 md:mx-14 lg:pt-14 lg:pb-0 pb-5 ">
+              <p className="text-white lg:pt-0 pt-5 text-[54px] lg:text-7xl md:text-5xl ">
                 OUR
               </p>
-              <p className="text-white md:mt-10 text-[54px] lg:text-7xl md:text-8xl lg:mt-5">
+              <p className="text-white md:mt-4 text-[54px] lg:text-7xl md:text-5xl lg:mt-5">
                 MISSION
               </p>
               <p className="text-white text-thin lg:text-[16px] text-xl lg:mt-12 mt-6">
@@ -40,7 +40,7 @@ const AboutUs = () => {
                 programs, we are providing them the knowledge, practical skills
                 and deeper understanding of all aspects of computer technology.
               </p>
-              <p className="text-white lg:text-base text-xl w-full mt-16  md:text-4xl">
+              <p className="text-white lg:text-base text-xl w-full mt-16  md:text-2xl">
                 - Amresh Kumar, Founder
               </p>
             </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
         </div>
         {/* paragraph */}
         <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7 ">
-          <p className=" font-light mt-7 lg:text-center lg:font-fontspar  md:mx-14 text-[19px] lg:text-[17px] lg:px-28">
+          <p className=" font-light mt-7 lg:text-center lg:font-fontspar  md:mx-2 text-[19px] lg:text-[17px] lg:px-40">
             Our vision is to empower the rural youth and make them reach their
             full potential. We want to uplift rural India by educating its young
             adults in
@@ -92,7 +92,7 @@ const AboutUs = () => {
             <img
               src={girl}
               alt=""
-              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 md:mx-8 bg-cover" />
+              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 lg:mx-8 bg-cover" />
           </div>
         </div>
         {/* Card components */}

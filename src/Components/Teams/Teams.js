@@ -39,15 +39,15 @@ const Teams = () => {
           <div className="w-full h-full  flex lg:flex-row flex-col">
             <div className="w-full lg:w-1/2 h-full flex flex-col justify-center gap-6 lg:gap-12 order-2 lg:order-1">
               <div className="flex flex-col md:gap-4 md:mt-0 mt-2 ">
-                <p className="text-white lg:text-[40px] text-[32px] font-normal tracking-[3px] md:text-5xl">
+                <p className="text-white lg:text-[40px] text-[32px] font-normal tracking-[3px] md:text-2xl">
                   Amresh Kumar
                 </p>
-                <p className="text-white font-fontsans font-semibold text-[18px] lg:text-[13px] tracking-[3px] md:text-4xl">
+                <p className="text-white font-fontsans font-semibold text-[18px] lg:text-[13px] tracking-[3px] md:text-2xl">
                   Founder
                 </p>
               </div>
               <div className="w-full md:pr-4">
-                <p className="text-white lg:text-[18px] md:text-[42px]  text-[21px] w-full font-thin">
+                <p className="text-white lg:text-[18px] md:text-[25px]  text-[21px] w-full font-thin">
                   I’m a paragraph. Use this space to tell people more about what
                   you do and the services you offer. Double click here or click
                   Edit Text to get started. Te about what you do and the
@@ -56,7 +56,7 @@ const Teams = () => {
                 </p>
               </div>
               <div className="w-full md:pr-4">
-                <p className="text-white lg:text-[18px] md:text-[42px] text-[21px] w-full font-thin ">
+                <p className="text-white lg:text-[18px] md:text-[25px] text-[21px] w-full font-thin ">
                   I’m a paragraph. Use this space to tell people more about what
                   you do and the services you offer. Double click here or click
                   Edit Text to get started. I’m a para. Use this space to.
@@ -81,11 +81,11 @@ const Teams = () => {
         {/* Team */}
         <div className="w-full text-center mt-16">
           <div className="w-full font-fontNunito text-black font-bold opacity-90 tracking-[2px] text-[40px]">
-            <p className="lg:text-[42px] md:text-7xl " data-aos="fade-left">
+            <p className="lg:text-[42px] md:text-5xl " data-aos="fade-left">
               TEAM
             </p>
             <p
-              className="lg:text-[42px] md:text-7xl md:mt-5 "
+              className="lg:text-[42px] md:text-5xl md:mt-5 "
               data-aos="fade-right"
             >
               SUVAIDYAM
@@ -93,7 +93,7 @@ const Teams = () => {
           </div>
           <hr
             data-aos="zoom-out"
-            className="lg:w-8 m-auto bg-black lg:h-1 md:h-2 md:mt-7 lg:mt-10 md:w-20 w-8 h-1 mt-3 "
+            className="lg:w-8 m-auto bg-black lg:h-1 md:h-1 md:mt-7 lg:mt-10 md:w-14 w-8 h-1 mt-3 "
           />
         </div>
         {/*bottom rounded image */}
@@ -111,10 +111,10 @@ const Teams = () => {
                 <p>{e.post}</p>
               </div>
               <div className="w-full lg:mt-12 mt-3 flex justify-center">
-                <p className="lg:w-[250px] lg:text-sm text-center w-[400px] lg:pl-10 lg:px-0 px-8 font-thin text-xl">{e.descriptions}</p>
+                <p className="lg:w-[250px] lg:text-sm text-center md:w-full w-[400px] lg:pl-10 lg:px-0 px-8 font-thin text-xl">{e.descriptions}</p>
               </div>
               <div className="w-full flex justify-center">
-                <p className="lg:w-[240px] lg:text-sm w-[400px] text-center lg:pl-10 lg:px-0 px-16 font-thin  text-[20px] ">{e.description}</p>
+                <p className="lg:w-[220px] lg:text-sm w-[400px] md:w-full text-center lg:pl-10 lg:px-0 px-16 font-thin  text-[20px] ">{e.description}</p>
               </div>
             </div>
           ))}

@@ -4,14 +4,14 @@ import invHome from '../../Assets/involved-img.webp'
 const GetInvolved = () => {
   return (
     <>
-      <div className='w-full md:mt-48'>
+      <div className='w-full md:mt-[180px]'>
         <div className='md:flex md:px-0 block w-full gap-10 px-5'>
-          <div className='md:w-1/2 justify-end flex '>
-            <img src={invHome} alt="" className='lg:w-[490px] lg:h-[546px]' />
+          <div className='md:w-1/2 justify-end md:flex '>
+            <img src={invHome} alt="" className='lg:w-[450px] lg:h-[546px]' />
           </div>
           <div className='md:w-1/2'>
             <div className="lg:w-[60%] lg:pt-28 pt-5">
-              <div className='lg:text-[85px] md:text-[67px] text-[60px] font-serif text-bgblue'>
+              <div className='lg:text-[85px] w-20 md:text-[67px] text-[60px] font-serif text-bgblue'>
                 <p>Get involved.</p>
               </div>
               <div className='md:text-lg md:pr-2  font-fontspar text-xl text-black pt-2'>
@@ -65,13 +65,13 @@ const GetInvolved = () => {
           </div>
           <div className='lg:w-[700px] md:pl-10 md:border-l border-gray-500  font-fontNunito'>
             <p>
-            Tell people more about the services you offer. Use this repeating layout to display content. It's an easy 
-            way to keep your customers up to date with what's happening.
+              Tell people more about the services you offer. Use this repeating layout to display content. It's an easy
+              way to keep your customers up to date with what's happening.
             </p>
           </div>
         </div>
         {/* DOWN */}
-        <div className='h-[400px] bg-bgblue flex mt-14  items-center text-center text-white px-5 md:px-0'>
+        <div className='h-[400px] bg-bgblue flex mt-14 justify-center  items-center text-center text-white px-5 md:px-0'>
           <div>
             <p className='md:text-[40px] text-[22px]  font-fontgetDown'>I'M AN ORIGINAL CATCHPHRASE</p>
             <p className='border-b-[3px] md:my-8 my-2 md:mx-[48.5%] mx-[43%]'></p>

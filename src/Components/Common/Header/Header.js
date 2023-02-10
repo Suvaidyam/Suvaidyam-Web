@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <>
-      <div className="w-full  h-20  fixed top-0 bg-white z-[3000]">
+      <div className="w-full  h-20  fixed top-0 bg-white z-[3000] shadow">
         {/* Logo */}
         <div className="w-full h-full max-w-[1720px] mx-auto flex px-5 lg:px-20 justify-between">
         <div className=" h-full flex items-center ">

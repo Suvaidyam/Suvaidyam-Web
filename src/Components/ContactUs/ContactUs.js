@@ -2,10 +2,10 @@ import { useFormik } from "formik";
 import React from "react";
 import { signUpSchema } from "../../Schema";
 
-
 const initialValues = {
   name: "",
   email: "",
+  message:"",
 }
 
 const ContactUs = () => {
@@ -17,11 +17,9 @@ const ContactUs = () => {
       console.log(values)
     }
   })
-  console.log(errors)
-
   return (
     <>
-      <div className="md:pb-20 mt-20 bg-[#FAFAFA] md:px-0 px-7">
+      <div className="md:pb-20 mt-20 bg-slate-100 md:px-0 px-7">
         <div className="md:pt-32 pt-5 items-center md:text-center">
           <p className=" md:text-4xl text-3xl font-thin md:tracking-widest">
             HAVE QUESTIONS?
@@ -48,7 +46,7 @@ const ContactUs = () => {
               text-gray-400 bg-transparent border-0 border-b border-gray-300 appearance-none
               dark:border-gray-600 dark:focus:border-bgblue focus:outline-none focus:ring-0 focus:border-bgblue
                 peer" placeholder=" " />
-              {errors.name && touched.name ? <p className='text-xs text-red-600'>{errors.name}</p> : null}
+              {errors.name && touched.name ? <p className='text-xs text-red-600 absolute'>{errors.name}</p> : null}
               <label
                 htmlFor="name"
                 className="peer-focus:font-medium absolute text-gray-400 tracking-widest  font-normal text-[15px]
@@ -70,7 +68,7 @@ const ContactUs = () => {
               text-gray-400 bg-transparent border-0 border-b border-gray-300 appearance-none 
               dark:border-gray-600 dark:focus:border-bgblue focus:outline-none focus:ring-0 focus:border-bgblue
                 peer" placeholder=" " />
-              {errors.email && touched.email ? <p className='text-xs text-red-600'>{errors.email}</p> : null}
+              {errors.email && touched.email ? <p className='text-xs text-red-600 absolute'>{errors.email}</p> : null}
               <label
                 htmlFor="email"
                 className="peer-focus:font-medium absolute  text-gray-400 
@@ -87,10 +85,15 @@ const ContactUs = () => {
                 id="message"
                 cols="30"
                 rows="4"
+                value={values.message}
+                onChange={handleChange}
+                onBlur={handleBlur}
                 className="block py-2.5 px-0 w-full text-sm
               text-gray-400 bg-transparent border-0 border-b border-gray-300 appearance-none 
               dark:border-gray-600 dark:focus:border-bgblue focus:outline-none focus:ring-0 focus:border-bgblue
                 peer"></textarea>
+
+              {errors.message && touched.message ? <p className='text-xs text-red-600 absolute'>{errors.message}</p> : null}
               <label
                 htmlFor="message"
                 className="peer-focus:font-medium absolute text-gray-400 dark:text-gray-400 text-[20px] peer-focus:text-sm
@@ -100,11 +103,12 @@ const ContactUs = () => {
               >
                 MESSAGE
               </label>
+
             </div>
             <div className="md:text-center">
               <button
                 className="md:w-24  w-[147px] md:h-10 h-12 md:text-[11px] text-[20px] md:mt-16 font-bold md:font-extrabold border-[2px]
-           border-bgblue bg-bgblue hover:bg-white hover:duration-700 text-white hover:text-bgblue tracking-[2px]"
+              border-bgblue bg-bgblue hover:bg-white duration-700 text-white hover:text-bgblue tracking-[2px]"
               >
                 SEND
               </button>

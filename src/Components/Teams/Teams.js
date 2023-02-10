@@ -81,18 +81,16 @@ const Teams = () => {
         {/* Team */}
         <div className="w-full text-center mt-16">
           <div className="w-full font-fontNunito text-black font-bold opacity-90 tracking-[2px] text-[40px]">
-            <p className="lg:text-[42px] md:text-5xl " data-aos="fade-left">
+            <p className="lg:text-[42px] md:text-5xl " >
               TEAM
             </p>
             <p
               className="lg:text-[42px] md:text-5xl md:mt-5 "
-              data-aos="fade-right"
             >
               SUVAIDYAM
             </p>
           </div>
           <hr
-            data-aos="zoom-out"
             className="lg:w-8 m-auto bg-black lg:h-1 md:h-1 md:mt-7 lg:mt-10 md:w-14 w-8 h-1 mt-3 "
           />
         </div>

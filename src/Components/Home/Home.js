@@ -9,7 +9,6 @@ const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
-
   const Dhawani = [
     {
       url: "https://dhwaniris.com/wp-content/uploads/elementor/thumbs/Dhwani-RIS_Logo-pb92034i3kedieyvsuns2yk4r2iw2fk45ecf1xkt30.png"
@@ -29,9 +28,7 @@ const Home = () => {
     <>
       <div className="w-full h-full">
         {/* imaze */}
-        <div className="w-full">
-          <Slider />
-        </div>
+        <div className="w-full"><Slider /></div>
         <div className="pl-6 md:text-center">
           <p
             className="  text-bgblue pt-7 font-playfire md:text-[85px] text-[40px] "
@@ -111,7 +108,7 @@ const Home = () => {
               <Link to='/involved'>
                 <button
                   className="md:w-40 w-48 lg:text-[12px] md:text-[11px] text-[15px] md:h-12 h-12 md:mt-16 mt-7
-                   font-bold md:border-[2px] border-[3px] border-bgblue hover:bg-bgblue hover:duration-700 text-bgblue
+                   font-bold md:border-[2px] border-[3px] border-bgblue hover:bg-bgblue duration-700 text-bgblue
                       hover:text-white md:tracking-widest tracking-[3px]"
                 >
                   GET INVOLVED

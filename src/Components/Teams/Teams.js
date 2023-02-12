@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import founder from "../../Assets/founder.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import rahul from '../../Assets/rahul.jpg'
 const Teams = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
   const dataimg = [
     {
-      img: 'https://static.wixstatic.com/media/nsplsh_2521f15e50f84b938544a61f0c8e80f0~mv2.jpg/v1/crop/x_662,y_0,w_3760,h_3776/fill/w_216,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Gyan%20Shahane.jpg',
-      Name: 'Abc Defg',
+      img: rahul,
+      Name: 'Rahul Kumar',
       id_: 1,
       post: 'Lorem Ipsum',
       description: "I’m a paragraph. Double click me or click Edit Text, it's easy."

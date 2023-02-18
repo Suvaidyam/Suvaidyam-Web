@@ -11,7 +11,7 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      <div className=" flex lg:justify-end lg:ml-0 ml-7  lg:w-[490px]  lg:mt-16 py-8 text-bgblue">
+      <div className=" flex xl:justify-end lg:ml-10 xl:ml-0 ml-7  lg:w-[490px]  lg:mt-16 py-8 text-bgblue">
         <div>
           <h1 className="lg:text-[18px] text-[25px] font-semibold">HOW WE WORK </h1>
           <h1 className="lg:text-5xl text-[40px] lg:mt-4 mt-2 from-neutral-400">
@@ -20,7 +20,7 @@ export const Card = () => {
         </div>
       </div>
       {/* card guide */}
-      <div className=" w-full lg:flex justify-center lg:mt-16  lg:w-full ">
+      <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-16 xl:px-0 lg:w-full">
        {
         card.map(e=>(
           <>
@@ -34,7 +34,7 @@ export const Card = () => {
             <p className="lg:text-2xl text-[27px] tracking-[2px] font-sans">
               WE ENCOURAGE
             </p>
-            <p className="mt-3 text-gray-500 text-[17px]  lg:text-[14px] font-playfire lg:w-[260px] lg:mx-0 mx-1 ">
+            <p className="mt-3 text-gray-500 text-[17px]  lg:text-[14px] font-playfire lg:w-[260px] lg:mx-0 lg:px-2 xl:px-0 mx-1 ">
               Where a child is born has a huge influence over their education
               and career trajectories. We are brining tech exposure and
               opportunities to areas where even access to stable internet is a
@@ -63,7 +63,7 @@ export const Card = () => {
         ))
        }
       </div>
-      <div className="lg:flex justify-center mt-4">
+      <div className="lg:flex xl:pl-[181px] lg:px-11 xl:px-0 mt-4">
        {
         card.map(e=>(
           <>

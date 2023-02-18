@@ -100,7 +100,7 @@ const Teams = () => {
           {dataimg.map(e => (
             <div>
               <div className="w-full flex justify-center mt-16">
-                <img src={e.img} alt="Gyan" className="rounded-full lg:w-[220px] lg:h-[220px] w-[270px] " />
+                <img src={e.img} alt="Gyan" className="rounded-full lg:w-[220px] lg:h-[220px] w-[270px] h-[270px] " />
               </div>
               <div className="w-full text-center lg:my-5 my-3 lg:text-[22px] text-[26px] opacity-90 ">
                 <p>{e.Name}</p>

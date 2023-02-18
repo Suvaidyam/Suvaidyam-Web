@@ -4,9 +4,7 @@ import girl from "../../Assets/girls-img.webp";
 import { Card } from "./Card";
 import CardSlider from "./CardSlider";
 
-
 const AboutUs = () => {
-
   return (
     <>
       <div className="w-full h-full">
@@ -16,12 +14,12 @@ const AboutUs = () => {
             <img
               src={hand}
               alt="hand-img"
-              className="w-full md:h-[500px] h-[230px]  lg:bg-contain lg:w-[700px] lg:h-[740px]  bg-no-repeat"
+              className="w-full md:h-[500px] h-[230px]  lg:bg-contain lg:w-[700px] lg:h-[740px] sm:h-96 bg-no-repeat"
             />
           </div>
           {/* our mission */}
-          <div className="bg-[#0C1D39] lg:w-[700px] lg:h-[740px] lg:flex lg:justify-end w-full">
-            <div className="lg:w-[370px]  mx-6 lg:mx-0 md:mx-14 lg:pt-14 lg:pb-0 pb-5 ">
+          <div className="bg-[#0C1D39] lg:w-[700px] lg:h-[740px] lg:flex  w-full">
+            <div className="lg:w-[370px]  mx-6 lg:ml-24 md:mx-14 lg:pt-14 lg:pb-0 pb-5  ">
               <p className="text-white lg:pt-0 pt-5 text-[54px] lg:text-7xl md:text-5xl ">
                 OUR
               </p>
@@ -44,7 +42,6 @@ const AboutUs = () => {
                 - Amresh Kumar, Founder
               </p>
             </div>
-            <div className="lg:w-[190px] "></div>
           </div>
         </div>
 
@@ -58,8 +55,8 @@ const AboutUs = () => {
           </div>
         </div>
         {/* paragraph */}
-        <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 mx-7 ">
-          <p className=" font-light mt-7 lg:text-center lg:font-fontspar  md:mx-2 text-[19px] lg:text-[17px] lg:px-40">
+        <div className="lg:w-full lg:ml-0 ml-7 lg:mx-0 lg:px-7 xl:px-0 mx-7 ">
+          <p className=" font-light mt-7 lg:text-center lg:font-fontspar  md:mx-2 text-[19px] lg:text-[17px] xl:px-40">
             Our vision is to empower the rural youth and make them reach their
             full potential. We want to uplift rural India by educating its young
             adults in
@@ -68,8 +65,8 @@ const AboutUs = () => {
           </p>
         </div>
         {/* who we are */}
-        <div className="bg-[#eaf4f6]  lg:w-full lg:mx-0  md:mt-16 lg:flex  mx-7 ">
-          <div className="lg:w-1/2 lg:pl-44 my-10 mb-8 lg:mx-0 mx-4  ">
+        <div className="bg-[#eaf4f6]   lg:mx-0  md:mt-16 lg:flex  mx-7 ">
+          <div className="lg:w-1/2 xl:pl-44 my-10 mb-8 lg:mx-10 xl:mx-0 mx-4  ">
             <h1 className="text-2xl text-bgblue  lg:px-0 p-3">WHO WE ARE</h1>
             <div>
               <p className="my-7 font-fontspar lg:text-[18px] text-xl">
@@ -88,11 +85,11 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className=" lg:w-1/2">
+          <div className=" xl:w-1/2 lg:px-5">
             <img
               src={girl}
               alt=""
-              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 lg:mx-8 bg-cover" />
+              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 xl:mx-8  bg-cover" />
           </div>
         </div>
         {/* Card components */}

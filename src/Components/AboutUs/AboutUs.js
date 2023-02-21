@@ -99,7 +99,9 @@ const AboutUs = () => {
         {/* Slider Components */}
         <div className="w-full mt-10">
           <CardSlider />
+          {/* <MobileCarousel/> */}
         </div>
+
       </div>
     </>
   );

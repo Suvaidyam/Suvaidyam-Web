@@ -30,6 +30,7 @@ const CardSlider = () => {
       items: 1,
     },
   };
+
   const fullscreenimg = [
     {
       url: imgg,
@@ -64,42 +65,55 @@ const CardSlider = () => {
       {/*  */}
       <div className="w-full h-full relative ">
 
-        <button
-          className=" text-white font-bold py-2 px-4 rounded"
-          onClick={() => setShowPopup(true)}
-        >
-          <div className=" flex">
+        <div className="hidden sm:block">
+          <button
+            className=" text-white font-bold py-2 px-4 rounded lg:block"
+            onClick={() => setShowPopup(true)}
+          >
+            <div className="w-full sm:flex">
 
-            <div className=" relative group">
-              <div>
-                <img src={imgg} alt="" className=" group-hover:block" />
+              <div className=" relative group">
+                <div>
+                  <img src={imgg} alt="" className=" group-hover:block" />
+                </div>
+                <div className="flex justify-center">
+                  <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]">
+                    {heart === true ? <FaHeart onClick={toggle} className='text-red-500' /> : <BsHeart onClick={toggle} />}
+                  </p>
+                  <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
+                </div>
               </div>
-              <div className="flex justify-center">
-                <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]">
-                  {heart === true ? <FaHeart onClick={toggle} className='text-red-500' /> : <BsHeart onClick={toggle} />}
-                </p>
-                <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
+              <div className=" mx-3 relative group">
+                <img src={office} alt="" className=" group-hover:block" />
+                <div className=" flex justify-center">
+                  <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]"><BsHeart /></p>
+                  <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
+                </div>
               </div>
-            </div>
-            <div className=" mx-3 relative group">
-              <img src={office} alt="" className=" group-hover:block" />
-              <div className=" flex justify-center">
-                <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]"><BsHeart /></p>
-                <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
+              <div className=" relative group">
+                <img src={laptop} alt="" className=" group-hover:block" />
+                <div className=" flex justify-center">
+                  <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]"><BsHeart /></p>
+                  <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
+                </div>
               </div>
-            </div>
-            <div className=" relative group">
-              <img src={laptop} alt="" className=" group-hover:block" />
-              <div className=" flex justify-center">
-                <p className=" group-hover:block hidden absolute top-0 text-white lg:mt-40 text-[17px]"><BsHeart /></p>
-                <p className="bg-blue-400 opacity-30 group-hover:block hidden  top-0 absolute w-full h-full"></p>
-              </div>
-            </div>
 
+            </div>
+          </button>
+        </div>
+
+        <div className="block sm:hidden">
+          
+          <div>
+            <Carousel responsive={responsive} className='z-[500]'>
+              {fullscreenimg.map(e => (
+                <div className="flex justify-center">
+                  <img src={e.url} alt="" className="  h-60" onClick={() => setShowPopup(true)} />
+                </div>
+              ))}
+            </Carousel>
           </div>
-
-        </button>
-
+        </div>
 
         {showPopup && (
           <div className="w-full h-full fixed top-0 left-0  right-0 bg-white p-8 z-[500] ">
@@ -132,6 +146,7 @@ const CardSlider = () => {
                                 <div>
                                   <img
                                     src={e.url}
+                                    alt='img'
                                     style={{
                                       width: isExpanded ? '1600px' : '100%',
                                       height: isExpanded ? '500px' : 'auto',
@@ -141,10 +156,11 @@ const CardSlider = () => {
                                     }}
                                   />
                                 </div> : <>
-                                  <div>
+                                  <div >
                                     <img
                                       src={e.url}
-                                      className='md:h-auto  h-[200px] mt-7'
+                                      className='md:h-auto  h-[200px] mt-7 sm:mt-0'
+                                      alt="img"
                                     />
                                   </div> </>}
                             </div>
@@ -159,6 +175,28 @@ const CardSlider = () => {
           </div>
         )}
       </div>
+      {/* <Carousel responsive={responsive}> */}
+
+      {/* {fullscreenimg.map(e => (
+          <div className="flex justify-center">
+            <img src={e.url} alt="" className="" />
+          </div>
+        ))}  */}
+      {/* <div>
+          <img src={imgg} alt="" />
+        </div>
+        <div>
+          <img src={office} alt="" />
+        </div>
+        <div>
+          <img src={laptop} alt=""/>
+        </div>
+        <div>
+          <img src={nsplsh} alt=""/>
+        </div> */}
+      {/* </Carousel> */}
+
+
       {/*  */}
     </>
   );

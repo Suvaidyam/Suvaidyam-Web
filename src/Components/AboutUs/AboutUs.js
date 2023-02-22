@@ -101,7 +101,6 @@ const AboutUs = () => {
           <CardSlider />
           {/* <MobileCarousel/> */}
         </div>
-
       </div>
     </>
   );

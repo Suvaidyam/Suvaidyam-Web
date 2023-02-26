@@ -4,6 +4,7 @@ import girlImg from "../../Assets/girls-img.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import dhwaniImg from "../../Assets/DhwaniRIS.png"
 
 const Home = () => {
   useEffect(() => {
@@ -11,16 +12,16 @@ const Home = () => {
   });
   const Dhawani = [
     {
-      url: "https://dhwaniris.com/wp-content/uploads/elementor/thumbs/Dhwani-RIS_Logo-pb92034i3kedieyvsuns2yk4r2iw2fk45ecf1xkt30.png"
+      url: dhwaniImg
     },
     {
-      url: "https://dhwaniris.com/wp-content/uploads/elementor/thumbs/Dhwani-RIS_Logo-pb92034i3kedieyvsuns2yk4r2iw2fk45ecf1xkt30.png"
+      url: dhwaniImg
     },
     {
-      url: "https://dhwaniris.com/wp-content/uploads/elementor/thumbs/Dhwani-RIS_Logo-pb92034i3kedieyvsuns2yk4r2iw2fk45ecf1xkt30.png"
+      url: dhwaniImg
     },
     {
-      url: "https://dhwaniris.com/wp-content/uploads/elementor/thumbs/Dhwani-RIS_Logo-pb92034i3kedieyvsuns2yk4r2iw2fk45ecf1xkt30.png"
+      url: dhwaniImg
     },
   ]
 
@@ -136,7 +137,8 @@ const Home = () => {
             <div className="w-full h-full flex gap-8 md:gap-10 flex-wrap items-center justify-between">
               {Dhawani.map(e => (
                 <div className="w-32 min-w-[128px]">
-                  <img src={e.url} alt="" />
+                  <img src={e.url} alt="Partner image" />
+                  {console.log(e.url)}
                 </div>
               ))}
             </div>

@@ -7,7 +7,7 @@ const GetInvolved = () => {
       <div className='w-full md:mt-[180px]'>
         <div className='md:flex md:px-0 block w-full gap-10 px-5'>
           <div className='md:w-1/2 justify-end md:flex '>
-            <img src={invHome} alt="" className='lg:w-[450px] lg:h-[546px]' />
+            <img src={invHome} alt="" className='lg:w-[450px] lg:h-[546px] h-[450px]' />
           </div>
           <div className='md:w-1/2'>
             <div className="lg:w-[60%] lg:pt-28 pt-5">

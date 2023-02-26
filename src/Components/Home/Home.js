@@ -138,7 +138,6 @@ const Home = () => {
               {Dhawani.map(e => (
                 <div className="w-32 min-w-[128px]">
                   <img src={e.url} alt="Partner image" />
-                  {console.log(e.url)}
                 </div>
               ))}
             </div>

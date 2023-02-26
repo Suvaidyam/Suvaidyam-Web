@@ -5,7 +5,7 @@ import { signUpSchema } from "../../Schema";
 const initialValues = {
   name: "",
   email: "",
-  message:"",
+  message: "",
 }
 
 const ContactUs = () => {
@@ -19,7 +19,7 @@ const ContactUs = () => {
   })
   return (
     <>
-      <div className="md:pb-20 mt-20 bg-slate-100 md:px-0 px-7">
+      <div className="md:pb-20 mt-20 bg-[#FAFAFA] md:px-0 px-7">
         <div className="md:pt-32 pt-5 items-center md:text-center">
           <p className=" md:text-4xl text-3xl font-thin md:tracking-widest">
             HAVE QUESTIONS?
@@ -104,6 +104,33 @@ const ContactUs = () => {
                 MESSAGE
               </label>
 
+              {/* inMessage */}
+              {/* <div className="relative z-0 w-full mb-6 group lg:hidden">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="4"
+                  value={values.message}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  className="block py-2.5 px-0 w-full text-sm
+              text-gray-400 bg-transparent border-0 border-b border-gray-300 appearance-none 
+              dark:border-gray-600 dark:focus:border-bgblue focus:outline-none focus:ring-0 focus:border-bgblue
+                peer"></textarea>
+
+                {errors.message && touched.message ? <p className='text-xs text-red-600 absolute'>{errors.message}</p> : null}
+                <label
+                  htmlFor="message"
+                  className="peer-focus:font-medium absolute text-gray-400 dark:text-gray-400 text-[20px] peer-focus:text-sm
+                duration-300 transform translate-y-16 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-bgblue
+               peer-focus:dark:text-bgblue peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-10 
+                peer-focus:scale-75 peer-focus:-translate-y-6 peer-placeholder-shown:top-20"
+                >
+                  MESSAGE
+                </label>
+              </div> */}
+              {/* inMessage */}
             </div>
             <div className="md:text-center">
               <button

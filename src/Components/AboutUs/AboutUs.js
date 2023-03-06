@@ -1,10 +1,17 @@
 import React from "react";
 import hand from "../../Assets/hand-img-.webp";
 import girl from "../../Assets/girls-img.webp";
-import { Card } from "./Card";
+import { Card} from "./Card";
 import CardSlider from "./CardSlider";
+import founder from "../../Assets/founder.webp";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <>
       <div className="w-full h-full">
@@ -65,33 +72,32 @@ const AboutUs = () => {
           </p>
         </div>
         {/* who we are */}
-        <div className="bg-[#eaf4f6]   lg:mx-0  md:mt-16 lg:flex  mx-7 ">
-          <div className="lg:w-1/2 xl:pl-44 my-10 mb-8 lg:mx-10 xl:mx-0 mx-4  ">
-            <h1 className="text-2xl text-bgblue  lg:px-0 p-3">WHO WE ARE</h1>
-            <div>
-              <p className="my-7 font-fontspar lg:text-[18px] text-xl">
-                Amresh Kumar founded Suvaidyam in the summer of 2021 with the aim to
-                unleash the full potential of the young adults born and brought up
-                in Indian villages.
-              </p>
-            </div>
-            <div>
-              <p className="font-fontspar lg:text-[17px]  text-xl">
-                Together Team Suvaidyam is creating opportunities for the rural
-                youth in the tech industry. From teaching them how to write code to
-                providing them hands on practical skills, Team Suvaidyam is making
-                sure that these young adults feel confident and qualified for
-                pursuing a variety of technology-focused careers.
-              </p>
+          <div className="w-full h-[620px] bg-bgblue mt-20">
+            <div className="w-full lg:flex">
+              <div className="lg:w-1/2  h-96 text-white mt-32 lg:order-1 order-2">
+                <div className="xl:ml-60 lg:ml-20 md:mx-10 lg:mx-0 "> 
+                <h1 className="text-4xl font-semibold tracking-wider">Who We Are</h1>
+                <p className="mt-16"><span className="text-2xl my-2 font-[400]">Amresh Kumar</span> founded Suvaidyam in the summer of 2020 with the aim to unleash the full potential of the young adults born and brought up in Indian villages. </p>
+                <p className="my-5 font-[400]">
+               Together Team Suvaidyam is creating opportunities for the rural youth in the tech industry.</p>
+               <p className="font-[400]">
+              From teaching them how to write code to providing them hands on practical skills, Team Suvaidyam is making sure that these young adults feel confident and qualified for pursuing a variety of technology-focused careers. </p>
+                </div>
+              </div>
+              <div className="w-1/2 order-1 lg:order-2">
+              <div className=" w-[60%] h-full bg-white mb-4 ml-0 lg:ml-16 relative mt-16 z-10 order-1">
+                <div className="w-full h-full relative lg:absolute lg:left-14 lg:bottom-11">
+                  <img
+                    data-aos="fade-right"
+                    className="w-full h-full"
+                    src={founder}
+                    alt=""
+                  />
+                </div>
+              </div>
+              </div>
             </div>
           </div>
-          <div className=" xl:w-1/2 lg:px-5">
-            <img
-              src={girl}
-              alt=""
-              className="lg:w-[510px] lg:h-[360px] w-full h-full lg:-mt-4 xl:mx-8  bg-cover" />
-          </div>
-        </div>
         {/* Card components */}
         <div className="w-full">
           <Card />

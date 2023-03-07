@@ -1,32 +1,29 @@
 {
   "files": {
-    "main.css": "/Suvaidyam-Web/static/css/main.ab25784b.css",
-    "main.js": "/Suvaidyam-Web/static/js/main.3e92a63f.js",
+    "main.css": "/Suvaidyam-Web/static/css/main.5a690fde.css",
+    "main.js": "/Suvaidyam-Web/static/js/main.8d044ef5.js",
     "static/js/787.8db1ae91.chunk.js": "/Suvaidyam-Web/static/js/787.8db1ae91.chunk.js",
-    "static/media/home-img.webp": "/Suvaidyam-Web/static/media/home-img.68539f838bab9d85605b.webp",
+    "static/media/home-img.jpg": "/Suvaidyam-Web/static/media/home-img.c5f0351cf3be84ad7ed0.jpg",
+    "static/media/rahul.jpg": "/Suvaidyam-Web/static/media/rahul.4932e7bc43f823173679.jpg",
+    "static/media/nsplsh.webp": "/Suvaidyam-Web/static/media/nsplsh.412207a83a8e136b0d3a.webp",
     "static/media/hand-img-.webp": "/Suvaidyam-Web/static/media/hand-img-.17d09df789aa8d06ebf0.webp",
     "static/media/girls-img.webp": "/Suvaidyam-Web/static/media/girls-img.32fc037b87d8fd6f37f5.webp",
     "static/media/founder.webp": "/Suvaidyam-Web/static/media/founder.d8dd2ee34fd16c9fb617.webp",
+    "static/media/laptop.webp": "/Suvaidyam-Web/static/media/laptop.8f803dc31f2b2c9773af.webp",
     "static/media/computer.webp": "/Suvaidyam-Web/static/media/computer.009d2b9e06cea7742f4a.webp",
     "static/media/involved-img.webp": "/Suvaidyam-Web/static/media/involved-img.9196b3792a0626c254c8.webp",
+    "static/media/office.webp": "/Suvaidyam-Web/static/media/office.f37736dff736aa816458.webp",
     "static/media/Logo.png": "/Suvaidyam-Web/static/media/Logo.8ed55c3b2425b097eadd.png",
     "static/media/revicons.eot": "/Suvaidyam-Web/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Suvaidyam-Web/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/Gyan Shahane.webp": "/Suvaidyam-Web/static/media/Gyan Shahane.5507ae4d42b19825ddb4.webp",
-    "static/media/Farhan Shaikh.webp": "/Suvaidyam-Web/static/media/Farhan Shaikh.bcfea85498e68f816d57.webp",
     "static/media/revicons.woff": "/Suvaidyam-Web/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/Vivek Kumar.webp": "/Suvaidyam-Web/static/media/Vivek Kumar.3d59c30fe723947816bc.webp",
-    "static/media/IMG_5619.webp": "/Suvaidyam-Web/static/media/IMG_5619.acfb7f63a55dee3d0895.webp",
-    "static/media/Mac Desktop.webp": "/Suvaidyam-Web/static/media/Mac Desktop.2450a21be856fe139416.webp",
-    "static/media/boad.webp": "/Suvaidyam-Web/static/media/boad.b76fd33aa1711acc45c8.webp",
-    "static/media/colorful books.webp": "/Suvaidyam-Web/static/media/colorful books.9d85fdd18ecef2b75a78.webp",
     "index.html": "/Suvaidyam-Web/index.html",
-    "main.ab25784b.css.map": "/Suvaidyam-Web/static/css/main.ab25784b.css.map",
-    "main.3e92a63f.js.map": "/Suvaidyam-Web/static/js/main.3e92a63f.js.map",
+    "main.5a690fde.css.map": "/Suvaidyam-Web/static/css/main.5a690fde.css.map",
+    "main.8d044ef5.js.map": "/Suvaidyam-Web/static/js/main.8d044ef5.js.map",
     "787.8db1ae91.chunk.js.map": "/Suvaidyam-Web/static/js/787.8db1ae91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab25784b.css",
-    "static/js/main.3e92a63f.js"
+    "static/css/main.5a690fde.css",
+    "static/js/main.8d044ef5.js"
   ]
 }

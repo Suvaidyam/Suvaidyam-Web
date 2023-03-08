@@ -12,7 +12,6 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      div
       {/* card guide */}
       <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-16 xl:px-0 lg:w-full">
         {

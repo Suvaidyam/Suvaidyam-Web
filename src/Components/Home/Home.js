@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Slider from "./Slider/Slider";
-import girlImg from "../../Assets/girls-img.webp";
+import group from "../../Assets/group.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -33,7 +33,7 @@ const Home = () => {
         <div className="pl-6 md:text-center">
           <p
             className="  text-bgblue pt-7 font-playfire md:text-[85px] text-[40px] "
-            data-aos="fade-up"
+          // data-aos="fade-up"
           >
             SUVAIDYAM
           </p>
@@ -47,9 +47,9 @@ const Home = () => {
         {/* SUVAIDYAM DOWN */}
         <div className='block md:flex w-full pb-4 pt-10 px-6 md:pb-16 md:px-5 md:gap-10 lg:gap-24 '>
           <div className='md:w-1/2 md:flex justify-end'>
-            <div className='lg:w-[365px] md:mr-10'>
+            <div className='lg:w-[365px]'>
               <div className=' md:flex items-center md:gap-5 '>
-                <div><p className='border-t w-20 border-red-500 hidden md:block'></p></div>
+                <div><p className='border-t w-20 border-red-500 hidden md:block' data-aos="fade-right"></p></div>
                 <div><p className='font-thin md:text-xs text-[16px] tracking-widest'>Bridging the technology gap</p></div>
               </div>
               <div className="md:pt-6 pt-2 font-[playfire] text-[27px] lg:text-[35px] md:text-3xl w-full  text-bgblue">
@@ -86,7 +86,7 @@ const Home = () => {
         {/* SUVAIDYAM DOWN TO*/}
         <div className="w-full  block  lg:flex md:gap-10 lg:gap-6">
           <div className="lg:w-[50%] ld:w-[50%]">
-            <img src={girlImg} className='md:h-[580px] w-full' alt="girls imaze" />
+            <img src={group} className='md:h-[580px] w-full' alt="girls imaze" />
           </div>
           <div className='lg:w-[50%] md:text-start text-center px-6'>
             <div className='lg:pl-16 md:text-center lg:text-start'>
@@ -120,24 +120,26 @@ const Home = () => {
           </div>
         </div>
         {/* SUVAIDYAM DOWN Three*/}
-        <div className="w-full md:flex justify-between px-6  lg:px-24 xl:px-48 items-center mt-20">
-          <div>
-            <p className="font-serif text-bgblue text-[29px] lg:text-5xl md:text-[36px]">
-              Partner Organisations
-            </p>
-          </div>
-          <div className='flex md:justify-center md:gap-4'>
-            <div className='md:w-16 w-9 mt-4 border-gray-500 md:border-t border-t-2'></div>
-            <div className='font-thin text-[18px] hidden md:block tracking-wider'>LEADING IN THE INDUSTRY</div>
+        <div className="flex justify-center">
+          <div className="w-full md:flex justify-between px-6 max-w-[1230px]  lg:px-24 xl:px-48 items-center mt-20">
+            <div>
+              <p className="font-serif text-bgblue text-[29px] lg:text-5xl md:text-[36px]">
+                Partner Organisations
+              </p>
+            </div>
+            <div className='flex md:justify-center md:gap-4'>
+              <div className='md:w-16 w-9 mt-4 border-gray-500 md:border-t border-t-2'></div>
+              <div className='font-thin text-[18px] hidden md:block tracking-wider'>LEADING IN THE INDUSTRY</div>
+            </div>
           </div>
         </div>
         {/* svg */}
         <section>
           <div className="w-full h-auto md:h-40 px-6  lg:px-24 xl:px-48 mt-6 md:mt-2 mb-10 flex justify-center">
-            <div className="w-full h-full flex gap-8 md:gap-10 flex-wrap items-center justify-between">
+            <div className="w-full h-full flex gap-8 md:gap-10 max-w-[850px] flex-wrap items-center justify-between">
               {Dhawani.map(e => (
                 <div className="w-32 min-w-[128px]">
-                  <img src={e.url} alt="Partner image" />
+                  <img src={e.url} alt="Dhawani img" />
                 </div>
               ))}
             </div>

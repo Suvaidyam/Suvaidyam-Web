@@ -13,8 +13,9 @@ const ContactUs = () => {
   const { values, errors, touched, handleBlur, handleChange, handleSubmit } = useFormik({
     initialValues: initialValues,
     validationSchema: signUpSchema,
-    onSubmit: (values) => {
-      console.log(values)
+    onSubmit: (values, action) => {
+      console.log(values);
+      action.resetForm();
     }
   })
   return (

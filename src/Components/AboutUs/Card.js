@@ -12,12 +12,21 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
+      <div className="w-full bg-gray-50 xl:pl-48 text-bgblue pb-10 pl-7 lg:pl-12">
+        <div className="pt-12 text-xl">
+          <h1>
+            HOW WE WORK</h1>
+        </div>
+        <div className="text-[40px]">
+          <h1>We EMPOWER</h1>
+        </div>
+      </div>
       {/* card guide */}
-      <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-16 xl:px-0 lg:w-full">
+      <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-0 xl:px-0 lg:w-full">
         {
           card.map(e => (
             <>
-              <div key={e.id} className="bg-[#F9F9F9] lg:w-[480px] w-full lg:mx-2 lg:flex pb-7 items-center">
+              <div key={e.id} className="bg-[#F9F9F9]  lg:w-[450px] w-full lg:mx-2 lg:flex pb-7 items-center">
                 <img
                   src={e.img}
                   alt="encourage"
@@ -27,7 +36,7 @@ export const Card = () => {
                   <p className="lg:text-2xl text-[27px] tracking-[2px] font-sans">
                     WE ENCOURAGE
                   </p>
-                  <p className="mt-3 text-gray-500 text-[17px]  lg:text-[14px] font-playfire lg:w-[260px] lg:mx-0 lg:px-2 xl:px-0 mx-1 ">
+                  <p className="mt-3 text-gray-500 text-[17px] font-[500] lg:text-[13px] font-playfire lg:w-[230px] lg:mx-0 lg:px-2 xl:px-0 mx-1 ">
                     Where a child is born has a huge influence over their education
                     and career trajectories. We are brining tech exposure and
                     opportunities to areas where even access to stable internet is a
@@ -35,7 +44,7 @@ export const Card = () => {
                   </p>
                 </div>
               </div>
-              <div key={e.id} className="bg-gray-50 lg:w-[480px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
+              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
                 <img
                   src={e.img_1}
                   alt="Books"
@@ -45,7 +54,7 @@ export const Card = () => {
                   <p className="lg:text-2xl text-[27px]  tracking-[2px] font-sans">
                     WE GUIDE
                   </p>
-                  <p className="mt-3 text-gray-500 text-[17px]  lg:text-[14px] font-playfire lg:w-[240px]">
+                  <p className="mt-3 text-gray-500 text-[17px]  lg:text-[13px] font-playfire lg:w-[220px]">
                     Along with providing quality computer education in rural areas
                     where most don't have access to it growing up, we are imparting
                     end-to-end guidance on how to launch successful careers in tech.
@@ -56,11 +65,11 @@ export const Card = () => {
           ))
         }
       </div>
-      <div className="lg:flex xl:pl-[176px] lg:px-11 xl:px-0 mt-4">
+      <div className="lg:flex xl:pl-[176px] lg:px-10 xl:px-0 mt-4">
         {
           card.map(e => (
             <>
-              <div key={e.id} className="bg-gray-50 lg:w-[480px] lg:mx-2 lg:flex pb-7 items-center ">
+              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:flex pb-7 items-center ">
                 <img
                   src={e.img_2}
                   alt="desktop"
@@ -70,13 +79,12 @@ export const Card = () => {
                   <p className="lg:text-2xl text-[27px] font-sans tracking-[2px]">
                     WE INVEST
                   </p>
-                  <p className="mt-3 text-gray-500 text-[17px] lg:mx-0  lg:text-[14px] font-playfire lg:w-[250px]">
-                    Introduce your team! Click here to add images, text and links, or
-                    connect data from your collection.
+                  <p className="mt-3 text-gray-500 text-[17px] lg:mx-0  lg:text-[13px] font-playfire lg:w-[230px]">
+                    We are focused on removing the roadblocks by equipping young individuals with tools such as free laptops, internet, online courses that are required to further their education.
                   </p>
                 </div>
               </div>
-              <div key={e.id} className="bg-gray-50 lg:w-[480px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
+              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
                 <img
                   src={e.img_3}
                   alt="encourage"
@@ -86,9 +94,8 @@ export const Card = () => {
                   <p className="lg:text-2xl text-[27px] font-sans  tracking-[2px]">
                     WE FACILITATE
                   </p>
-                  <p className="  mt-3 text-gray-500 lg:text-[14px]  text-[17px] font-playfire lg-mx-0 ">
-                    Introduce your team! Click here to add images, text and links, or
-                    connect data from your collection.
+                  <p className="  mt-3 text-gray-500 lg:text-[13px]  text-[17px] font-playfire lg-mx-0 lg:w-[210px]">
+                    Our approach is aimed at strengthening the linkages between skilled rural youth and the tech job market.
                   </p>
                 </div>
               </div>

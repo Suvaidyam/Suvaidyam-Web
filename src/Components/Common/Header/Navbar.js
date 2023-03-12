@@ -38,11 +38,11 @@ const Navbar = () => {
                     <div className="w-[75%] h-screen bg-bgblue absolute left-0 top-0">
                         <div className='w-full flex flex-col gap-1 pt-20 px-8'>
                             {nav.map(items => (
-                                <NavLink key={items.name} to={items.to} className='font-light tracking-widest text-[20px] hover:text-red-600
-                           text-white border-b w-4/5 h-12' onClick={() => setOpenNav(items.click)}>{items.name}</NavLink>
+                                <NavLink key={items.name} to={items.to} className='font-light tracking-widest text-[17px] hover:text-red-600
+                           text-white border-b w-4/5 h-10' onClick={() => setOpenNav(items.click)}>{items.name}</NavLink>
                             ))}
                             <Link to='/involved'>
-                                <button className='text-white pb-4 text-start'>GET INVOLVED</button>
+                                <button className='text-white text-start text-[16px] font-normal' onClick={() => setOpenNav(false)}>GET INVOLVED</button>
                             </Link>
                         </div>
                     </div> : null}

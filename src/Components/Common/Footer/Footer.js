@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { BsInstagram } from 'react-icons/bs'
+import { BsTwitter } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
+import { ImLinkedin2 } from 'react-icons/im'
 
 const Footer = () => {
+
   return (
     <>
       <div className="w-full mt-auto">
@@ -41,8 +46,24 @@ const Footer = () => {
                       <p className='font-light text-fsm'>Let's combine forces to make a <br />
                         difference together</p>
                     </div>
-                    <div className="h-full flex flex-col justify-end gap-3 md:gap-9">
+                    <div className="h-full flex flex-col justify-end gap-4 mt-5 ">
                       <p className='font-semibold text-fsm'>JOIN THE EMAIL LIST</p>
+                      <div className="flex gap-3 ">
+                        <a href='https://www.instagram.com/suvaidyam/' target='_blank'>
+                          <div className="w-9 h-9 rounded-full bg-slate-500 flex items-center justify-center text-white instagarm">
+                            <BsInstagram className='text-xl' />
+                          </div>
+                        </a>
+                        <a href='https://www.facebook.com/' target='_blank'>
+                          <div className="w-9 h-9 rounded-full bg-[#3b5998] flex items-center justify-center text-white"><FaFacebookF className='text-xl' /></div>
+                        </a>
+                        <a href='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D' target='_blank'>
+                          <div className="w-9 h-9 rounded-full bg-sky-400 flex items-center justify-center text-white"><BsTwitter className='text-xl' /></div>
+                        </a>
+                        <a href='' target='_blank'>
+                          <div className="w-9 h-9 rounded-full bg-[#0077b5] flex items-center justify-center text-white "><ImLinkedin2 className='text-xl' /></div>
+                        </a>
+                      </div>
                       <div className='flex gap-3'>
                         <input type="email" placeholder='Enter email address' className='border-[2.5px]
                     w-36 px-3 py-1.5 border-bgblue placeholder:text-sm placeholder:font-light outline-none

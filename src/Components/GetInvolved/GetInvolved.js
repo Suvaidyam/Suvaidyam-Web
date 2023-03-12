@@ -9,6 +9,7 @@ const GetInvolved = () => {
       pre2: "Please make your cheque payable to <add cheque receiver name here> and mail to:",
       pre3: "<add mailing address here>",
       pre4: "working in various domains​. To volunteer at Suvaidyam, reach out to us on <insert email here>.",
+      id: 1
     },
 
   ]
@@ -27,7 +28,7 @@ const GetInvolved = () => {
         {/* Donate */}
         <div className="flex justify-center mt-20">
           {insi.map(e => (
-            <div className="md:mx-20">
+            <div className="md:mx-20" key={e.id}>
               <div className="">
                 <h1 className='text-[28px] md:-ml-5'>DONATE</h1>
                 <h1 className='font-fontgetDown text-[18px] mt-5'><b>Ways to give:</b></h1>
@@ -87,7 +88,7 @@ const GetInvolved = () => {
       {/* Footer site */}
       <div className="w-full  bg-bgblue text-white mt-20 flex justify-center">
         <div className="">
-          <p className='text-[35px] mt-20 font-fontgetDown tracking-[0.5px] px-5 text-center md:max-w-[850px] md:w-auto'>We wish to express our heartfelt gratitude for your support of our efforts. </p>
+          <p className='text-[35px] mt-20 font-fontgetDown tracking-[0.5px] px-5 text-center md:max-w-[850px]  '>We wish to express our heartfelt gratitude for your support of our efforts. </p>
           <p className='border-[1.5px] md:mx-[47.5%] mx-[43%] mt-4 mb-20'></p>
         </div>
       </div>

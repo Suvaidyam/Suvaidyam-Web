@@ -12,16 +12,20 @@ const Home = () => {
   });
   const Dhawani = [
     {
-      url: dhwaniImg
+      url: dhwaniImg,
+      id: 1
     },
     {
-      url: dhwaniImg
+      url: dhwaniImg,
+      id: 2
     },
     {
-      url: dhwaniImg
+      url: dhwaniImg,
+      id: 3
     },
     {
-      url: dhwaniImg
+      url: dhwaniImg,
+      id: 4
     },
   ]
 
@@ -138,7 +142,7 @@ const Home = () => {
           <div className="w-full h-auto md:h-40 px-6  lg:px-24 xl:px-48 mt-6 md:mt-2 mb-10 flex justify-center">
             <div className="w-full h-full flex gap-8 md:gap-10 max-w-[850px] flex-wrap items-center justify-between">
               {Dhawani.map(e => (
-                <div className="w-32 min-w-[128px]">
+                <div className="w-32 min-w-[128px]" key={e.id}>
                   <img src={e.url} alt="Dhawani img" />
                 </div>
               ))}

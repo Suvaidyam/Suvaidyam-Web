@@ -109,7 +109,7 @@ const CardSlider = () => {
           <div>
             <Carousel responsive={responsive} className='z-[500]'>
               {fullscreenimg.map(e => (
-                <div className="w-full flex justify-center">
+                <div className="w-full flex justify-center" key={e.url}>
                   <img src={e.url} alt="" className="  h-60" onClick={() => setShowPopup(true)} />
                 </div>
               ))}
@@ -160,7 +160,7 @@ const CardSlider = () => {
                     fullscreenimg.map((e) => {
                       return (
                         <>
-                          <div className="flex justify-center mx-2">
+                          <div className="flex justify-center mx-2" key={e.url}>
                             <div>
                               {isExpanded === true ?
                                 <div>

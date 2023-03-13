@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Suvaidyam-Web/static/css/main.77de60ac.css",
-    "main.js": "/Suvaidyam-Web/static/js/main.d37a5ac3.js",
+    "main.css": "/Suvaidyam-Web/static/css/main.63271475.css",
+    "main.js": "/Suvaidyam-Web/static/js/main.1e598a8f.js",
     "static/js/787.8db1ae91.chunk.js": "/Suvaidyam-Web/static/js/787.8db1ae91.chunk.js",
     "static/media/home-img.jpg": "/Suvaidyam-Web/static/media/home-img.8eddafd832569812db06.jpg",
     "static/media/group.jpeg": "/Suvaidyam-Web/static/media/group.f5201c4841cf89a22ab3.jpeg",
@@ -18,12 +18,12 @@
     "static/media/revicons.ttf": "/Suvaidyam-Web/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Suvaidyam-Web/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Suvaidyam-Web/index.html",
-    "main.77de60ac.css.map": "/Suvaidyam-Web/static/css/main.77de60ac.css.map",
-    "main.d37a5ac3.js.map": "/Suvaidyam-Web/static/js/main.d37a5ac3.js.map",
+    "main.63271475.css.map": "/Suvaidyam-Web/static/css/main.63271475.css.map",
+    "main.1e598a8f.js.map": "/Suvaidyam-Web/static/js/main.1e598a8f.js.map",
     "787.8db1ae91.chunk.js.map": "/Suvaidyam-Web/static/js/787.8db1ae91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77de60ac.css",
-    "static/js/main.d37a5ac3.js"
+    "static/css/main.63271475.css",
+    "static/js/main.1e598a8f.js"
   ]
 }

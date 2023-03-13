@@ -6,14 +6,13 @@ export const Card = () => {
       img_1: "https://static.wixstatic.com/media/11062b_61159504c4b24999b7177c3ed9ddf4dc~mv2.jpg/v1/crop/x_720,y_0,w_2848,h_2848/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Colorful%20Books.jpg",
       img_2: "https://static.wixstatic.com/media/25d1f48ff8564b40b8f70a56324b696f.jpg/v1/crop/x_1000,y_0,w_4000,h_4000/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Mac%20Desktop.jpg",
       img_3: "https://static.wixstatic.com/media/b279c1_71b883a644904ca2ae9354da950780e8~mv2_d_3024_4032_s_4_2.jpg/v1/crop/x_0,y_1003,w_3024,h_3029/fill/w_160,h_160,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/unnamed%20(2).jpg",
-      id_: 1
     }
   ];
   return (
     <>
       {/* Empower */}
-      <div className="w-full bg-gray-50 xl:pl-48 text-bgblue pb-10 pl-7 lg:pl-12">
-        <div className="pt-12 text-xl">
+      <div className="w-full bg-gray-50 xl:pl-48 text-bgblue pb-10 pl-7 lg:pl-12 ">
+        <div className="pt-12 lg:text-xl text-[22.5px]">
           <h1>
             HOW WE WORK</h1>
         </div>
@@ -24,9 +23,9 @@ export const Card = () => {
       {/* card guide */}
       <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-0 xl:px-0 lg:w-full">
         {
-          card.map(e => (
+          card.map((e, index) => (
             <>
-              <div key={e.id} className="bg-[#F9F9F9]  lg:w-[450px] w-full lg:mx-2 lg:flex pb-7 items-center">
+              <div key={index} className="bg-[#F9F9F9] lg:mt-0 mt-3  lg:w-[450px] w-full lg:mx-2 lg:flex pb-7 items-center">
                 <img
                   src={e.img}
                   alt="encourage"
@@ -44,7 +43,7 @@ export const Card = () => {
                   </p>
                 </div>
               </div>
-              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
+              <div className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
                 <img
                   src={e.img_1}
                   alt="Books"
@@ -67,9 +66,9 @@ export const Card = () => {
       </div>
       <div className="lg:flex xl:pl-[176px] lg:px-10 xl:px-0 mt-4">
         {
-          card.map(e => (
+          card.map((e, index) => (
             <>
-              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:flex pb-7 items-center ">
+              <div key={index} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:flex pb-7 items-center ">
                 <img
                   src={e.img_2}
                   alt="desktop"
@@ -84,7 +83,7 @@ export const Card = () => {
                   </p>
                 </div>
               </div>
-              <div key={e.id} className="bg-gray-50 lg:w-[450px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
+              <div className="bg-gray-50 lg:w-[450px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
                 <img
                   src={e.img_3}
                   alt="encourage"

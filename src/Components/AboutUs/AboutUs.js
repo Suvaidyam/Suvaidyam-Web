@@ -73,8 +73,8 @@ const AboutUs = () => {
         {/* who we are */}
         <div className="w-full  xl:h-[600px] md:h-auto lg:h-[550px] h-full lg:pb-0 pb-[40px] md:pb-0 bg-bgblue lg:mt-20 mt-5">
           <div className="w-full flex lg:flex-row flex-col">
-            <div className="lg:w-1/2 lg:order-1 order-2 xl:h-96 md:h-72 lg:h-72 text-white lg:mt-32 mt-8 md:w-full">
-              <div className="xl:ml-52 lg:ml-20 md:mx-10 lg:mx-0 mx-7">
+            <div className="lg:w-1/2 lg:order-1 order-2 xl:h-96 md:h-72 lg:h-72 text-white lg:mt-32 mt-8 ">
+              <div className="xl:ml-52 lg:ml-20 md:mx-10 lg:mx-0 mx-7 lg:w-[420px] w-[330px] md:w-fit">
                 <h1 className="lg:text-4xl lg:block hidden text-3xl  font-semibold tracking-wider text-center lg:text-start">Who We Are</h1>
                 <p className="lg:mt-16"><span className="lg:text-2xl lg:ml-0 ml-5 md:ml-0 text-3xl my-2 font-[400]">Amresh Kumar</span> <span className="tracking-wider font-[400] lg:text-sm text-[16.5px]">founded Suvaidyam in the summer of 2020 with the aim to unleash the full potential of the young adults born and brought up <span className="lg:ml-0 ml-20 md:ml-0">in Indian villages.</span></span> </p>
                 <p className="my-5 font-[400] lg:text-sm tracking-wider text-[16.5px]">
@@ -88,7 +88,7 @@ const AboutUs = () => {
               <div className="lg:w-[60%] lg:h-full lg:bg-white lg:ml-12 lg:mt-16 relative">
                 <div className="w-full lg:absolute lg:ml-12 lg:-mt-10 lg:px-0 px-6">
                   <img
-                    data-aos="fade-right"
+                    data-aos="fade-right "
                     className="w-full md:px-10 lg:px-0"
                     src={founder}
                     alt=""

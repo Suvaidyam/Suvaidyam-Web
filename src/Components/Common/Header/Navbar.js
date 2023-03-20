@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* mobile */}
-            <div className="block lg:hidden ">
+            <div className="block lg:hidden">
                 {openNav === false ? <HiBars3 className='text-4xl cursor-pointer' onClick={() => setOpenNav(!openNav)} /> :
                     <IoMdClose className='text-4xl cursor-pointer' onClick={() => setOpenNav(!openNav)} />}
                 {openNav === true ?

@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="w-full h-full">
+      <div className="w-full h-full max-w-[1800px] mx-auto">
         {/* imaze */}
         <div className="w-full"><Slider /></div>
         <div className="pl-6 md:text-center">

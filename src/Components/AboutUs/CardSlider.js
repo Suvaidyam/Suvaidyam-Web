@@ -66,7 +66,7 @@ const CardSlider = () => {
     <>
 
       {/* slider */}
-      <div className="w-full h-full relative ">
+      <div className="w-full h-full relative max-w-[1800px] mx-auto">
 
         <div className="hidden sm:block">
           <button
@@ -109,7 +109,7 @@ const CardSlider = () => {
           <div>
             <Carousel responsive={responsive} className='z-[500]'>
               {fullscreenimg.map(e => (
-                <div className="w-full flex justify-center" key={e.url}>
+                <div className="w-full flex justify-center" key={e.id}>
                   <img src={e.url} alt="" className="  h-60" onClick={() => setShowPopup(true)} />
                 </div>
               ))}
@@ -160,7 +160,7 @@ const CardSlider = () => {
                     fullscreenimg.map((e) => {
                       return (
                         <>
-                          <div className="flex justify-center mx-2" key={e.url}>
+                          <div className="flex justify-center mx-2" key={e.id}>
                             <div>
                               {isExpanded === true ?
                                 <div>
@@ -176,7 +176,7 @@ const CardSlider = () => {
                                     }}
                                   />
                                 </div> : <>
-                                  <div >
+                                  <div>
                                     <img
                                       src={e.url}
                                       className='sm:h-auto  h-[200px] mt-7 sm:-mt-10'

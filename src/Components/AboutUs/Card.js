@@ -11,96 +11,97 @@ export const Card = () => {
   return (
     <>
       {/* Empower */}
-      <div className="w-full bg-gray-50 xl:pl-48 text-bgblue pb-10 pl-7 lg:pl-12 ">
-        <div className="pt-12 lg:text-xl text-[22.5px]">
-          <h1>
-            HOW WE WORK</h1>
+      <div className=" w-full h-full max-w-[1800px] mx-auto">
+        <div className="w-full bg-gray-50 xl:pl-[186px] lg:pl-16 text-bgblue pb-10 pl-7">
+          <div className="pt-12 lg:text-xl text-[22.5px] ">
+            <h1>HOW WE WORK</h1>
+          </div>
+          <div className="text-[40px]">
+            <h1>We EMPOWER</h1>
+          </div>
         </div>
-        <div className="text-[40px]">
-          <h1>We EMPOWER</h1>
+        {/* card guide */}
+        <div className=" w-full lg:flex lg:pl-12 lg:px-10 lg:mt-0 xl:px-0 xl:w-full lg:justify-center ">
+          {
+            card.map((e, index) => (
+              <>
+                <div key={index} className="bg-[#F9F9F9] lg:mt-0 mt-3  lg:w-[440px] w-full lg:mx-2 lg:flex pb-7 items-center">
+                  <img
+                    src={e.img}
+                    alt="encourage"
+                    className="rounded-full lg:w-52  w-[190px]  px-6 py-5"
+                  />
+                  <div className="lg:mt-5 lg:mx-0 mx-6">
+                    <p className="lg:text-2xl text-[27px] tracking-[2px] font-sans">
+                      WE ENCOURAGE
+                    </p>
+                    <p className="mt-3 text-gray-500 text-[17px] font-[500] lg:text-[13px] font-playfire lg:w-[230px] lg:mx-0 lg:px-2 xl:px-1 mx-1 ">
+                      Where a child is born has a huge influence over their education
+                      and career trajectories. We are brining tech exposure and
+                      opportunities to areas where even access to stable internet is a
+                      challenge.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
+                  <img
+                    src={e.img_1}
+                    alt="Books"
+                    className="rounded-full lg:w-52 w-[190px] px-6 py-5"
+                  />
+                  <div className="lg:mt-5  lg:mx-0 mx-6">
+                    <p className="lg:text-2xl text-[27px]  tracking-[2px] font-sans">
+                      WE GUIDE
+                    </p>
+                    <p className="mt-3 text-gray-500 text-[17px]  lg:text-[13px] font-playfire lg:w-[220px]">
+                      Along with providing quality computer education in rural areas
+                      where most don't have access to it growing up, we are imparting
+                      end-to-end guidance on how to launch successful careers in tech.
+                    </p>
+                  </div>
+                </div>
+              </>
+            ))
+          }
         </div>
-      </div>
-      {/* card guide */}
-      <div className=" w-full lg:flex xl:pl-44 lg:px-10 lg:mt-0 xl:px-0 lg:w-full">
-        {
-          card.map((e, index) => (
-            <>
-              <div key={index} className="bg-[#F9F9F9] lg:mt-0 mt-3  lg:w-[450px] w-full lg:mx-2 lg:flex pb-7 items-center">
-                <img
-                  src={e.img}
-                  alt="encourage"
-                  className="rounded-full lg:w-52  w-[190px]  px-6 py-5"
-                />
-                <div className="lg:mt-5 lg:mx-0 mx-6">
-                  <p className="lg:text-2xl text-[27px] tracking-[2px] font-sans">
-                    WE ENCOURAGE
-                  </p>
-                  <p className="mt-3 text-gray-500 text-[17px] font-[500] lg:text-[13px] font-playfire lg:w-[230px] lg:mx-0 lg:px-2 xl:px-0 mx-1 ">
-                    Where a child is born has a huge influence over their education
-                    and career trajectories. We are brining tech exposure and
-                    opportunities to areas where even access to stable internet is a
-                    challenge.
-                  </p>
+        <div className="lg:flex lg:pl-12 lg:px-10 xl:px-0 mt-4 lg:justify-center">
+          {
+            card.map((e, index) => (
+              <>
+                <div key={index} className="bg-gray-50 lg:w-[440px] lg:mx-2 lg:flex pb-7 items-center ">
+                  <img
+                    src={e.img_2}
+                    alt="desktop"
+                    className="rounded-full lg:w-52 w-[190px] px-6 py-5"
+                  />
+                  <div className="lg:mt-0 mt-4 lg:mx-0 mx-6">
+                    <p className="lg:text-2xl text-[27px] font-sans tracking-[2px]">
+                      WE INVEST
+                    </p>
+                    <p className="mt-3 text-gray-500 text-[17px] lg:mx-0  lg:text-[13px] font-playfire lg:w-[210px]">
+                      We are focused on removing the roadblocks by equipping young individuals with tools such as free laptops, internet, online courses that are required to further their education.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:mt-0 mt-4 lg:flex pb-7 items-center">
-                <img
-                  src={e.img_1}
-                  alt="Books"
-                  className="rounded-full lg:w-52 w-[190px] px-6 py-5"
-                />
-                <div className="lg:mt-5  lg:mx-0 mx-6">
-                  <p className="lg:text-2xl text-[27px]  tracking-[2px] font-sans">
-                    WE GUIDE
-                  </p>
-                  <p className="mt-3 text-gray-500 text-[17px]  lg:text-[13px] font-playfire lg:w-[220px]">
-                    Along with providing quality computer education in rural areas
-                    where most don't have access to it growing up, we are imparting
-                    end-to-end guidance on how to launch successful careers in tech.
-                  </p>
+                <div className="bg-gray-50 lg:w-[450px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
+                  <img
+                    src={e.img_3}
+                    alt="encourage"
+                    className="rounded-full lg:w-52 w-[190px] px-6 py-5"
+                  />
+                  <div className=" lg:mx-0 mx-6 ">
+                    <p className="lg:text-2xl text-[27px] font-sans  tracking-[2px]">
+                      WE FACILITATE
+                    </p>
+                    <p className="  mt-3 text-gray-500 lg:text-[13px]  text-[17px] font-playfire lg-mx-0 lg:w-[210px]">
+                      Our approach is aimed at strengthening the linkages between skilled rural youth and the tech job market.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </>
-          ))
-        }
-      </div>
-      <div className="lg:flex xl:pl-[176px] lg:px-10 xl:px-0 mt-4">
-        {
-          card.map((e, index) => (
-            <>
-              <div key={index} className="bg-gray-50 lg:w-[450px] lg:mx-2 lg:flex pb-7 items-center ">
-                <img
-                  src={e.img_2}
-                  alt="desktop"
-                  className="rounded-full lg:w-52 w-[190px] px-6 py-5"
-                />
-                <div className="lg:mt-0 mt-4 lg:mx-0 mx-6">
-                  <p className="lg:text-2xl text-[27px] font-sans tracking-[2px]">
-                    WE INVEST
-                  </p>
-                  <p className="mt-3 text-gray-500 text-[17px] lg:mx-0  lg:text-[13px] font-playfire lg:w-[230px]">
-                    We are focused on removing the roadblocks by equipping young individuals with tools such as free laptops, internet, online courses that are required to further their education.
-                  </p>
-                </div>
-              </div>
-              <div className="bg-gray-50 lg:w-[450px] lg:mt-0 mt-4 lg:mx-2 lg:flex pb-7 items-center">
-                <img
-                  src={e.img_3}
-                  alt="encourage"
-                  className="rounded-full lg:w-52 w-[190px] px-6 py-5"
-                />
-                <div className=" lg:mx-0 mx-6 ">
-                  <p className="lg:text-2xl text-[27px] font-sans  tracking-[2px]">
-                    WE FACILITATE
-                  </p>
-                  <p className="  mt-3 text-gray-500 lg:text-[13px]  text-[17px] font-playfire lg-mx-0 lg:w-[210px]">
-                    Our approach is aimed at strengthening the linkages between skilled rural youth and the tech job market.
-                  </p>
-                </div>
-              </div>
-            </>
-          ))
-        }
+              </>
+            ))
+          }
+        </div>
       </div>
     </>
   );

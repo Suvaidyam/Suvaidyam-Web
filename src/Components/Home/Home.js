@@ -4,7 +4,7 @@ import group from "../../Assets/group.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import dhwaniImg from "../../Assets/DhwaniRIS.png"
+import dhwaniImg from "../../Assets/DhwaniRIS.png";
 
 const Home = () => {
   useEffect(() => {

@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="h-full flex flex-col gap-3 justify-end">
                       <div className="md:mt-auto mt-8">
                         <p className='text-fsm font-light'>Address</p>
-                        <p className='text-fsm font-light'>Saran(chapra), Bihar, 841311</p>
+                        <p className='text-fsm font-light'>Saran(chhapra), Bihar, 841311</p>
                       </div>
                       <div className="">
                         <p className='text-fsm font-light'>+91-8308623995</p>

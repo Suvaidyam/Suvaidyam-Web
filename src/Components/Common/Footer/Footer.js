@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { BsInstagram } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
@@ -5,6 +6,20 @@ import { FaFacebookF } from 'react-icons/fa';
 import { ImLinkedin2 } from 'react-icons/im';
 
 const Footer = () => {
+=======
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { BsInstagram } from 'react-icons/bs'
+import { BsTwitter } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
+import { ImLinkedin2 } from 'react-icons/im'
+import { VscArrowUp } from 'react-icons/vsc'
+
+const Footer = () => {
+  function scrollWin() {
+    window.scrollTo(0, 0);
+  }
+>>>>>>> 123f5c79f18460ed22fac6c769bd5b8b8162eb1c
   return (
     <>
       <div className="w-full mt-auto">
@@ -35,7 +50,7 @@ const Footer = () => {
                     <div className="h-full flex flex-col gap-3 justify-end">
                       <div className="md:mt-auto mt-8">
                         <p className='text-fsm font-light'>Address</p>
-                        <p className='text-fsm font-light'>Saran(chapra), Bihar, 841311</p>
+                        <p className='text-fsm font-light'>Saran(chhapra), Bihar, 841311</p>
                       </div>
                       <div className="">
                         <p className='text-fsm font-light'>+91-8308623995</p>
@@ -100,6 +115,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div onClick={scrollWin} className="w-10 cursor-pointer flex justify-center items-center text-white text-xl duration-500 h-10 z-50 bg-sky-600 rounded-full fixed right-5  bottom-10"><VscArrowUp /></div>
     </>
   );
 }

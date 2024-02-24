@@ -1,8 +1,7 @@
 import { ErrorMessage, Field, Form, Formik } from 'formik'
 import React from 'react'
 import { BsInstagram } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
-import { FaFacebookF } from 'react-icons/fa'
+import { FaWhatsapp, FaYoutube } from 'react-icons/fa'
 import { ImLinkedin2 } from 'react-icons/im'
 import { VscArrowUp } from 'react-icons/vsc'
 import { emailScema } from '../../../Schema'
@@ -75,20 +74,20 @@ const Footer = () => {
                     </div>
                     <div className="h-full flex flex-col justify-end gap-4 mt-5 ">
                       <p className='font-semibold text-fsm'>JOIN THE EMAIL LIST</p>
-                      <div className="flex gap-3 ">
+                      <div className="flex gap-4">
                         <a href='https://www.instagram.com/suvaidyam/' target='_blank' rel='noreferrer'>
                           <div className="w-9 h-9 rounded-full bg-slate-500 flex items-center justify-center text-white instagarm">
                             <BsInstagram className='text-xl' />
                           </div>
                         </a>
-                        <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
-                          <div className="w-9 h-9 rounded-full bg-[#3b5998] flex items-center justify-center text-white">
-                            <FaFacebookF className='text-xl' />
+                        <a href='https://whatsapp.com/channel/0029VaAg20iG3R3rCSYYjL30' target='_blank' rel='noreferrer'>
+                          <div className="w-9 h-9 rounded-full flex items-center justify-center">
+                            <FaWhatsapp className='text-green-400' size={36} />
                           </div>
                         </a>
-                        <a href='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D' target='_blank' rel='noreferrer'>
-                          <div className="w-9 h-9 rounded-full bg-sky-400 flex items-center justify-center text-white">
-                            <BsTwitter className='text-xl' />
+                        <a href='https://www.youtube.com/@suvaidyam/featured' target='_blank' rel='noreferrer'>
+                          <div className="w-9 h-9 rounded-full flex items-center justify-center">
+                            <FaYoutube className='text-red-500' size={36} />
                           </div>
                         </a>
                         <a href='https://www.linkedin.com/company/suvaidyam/?originalSubdomain=in' target='_blank' rel='noreferrer'>

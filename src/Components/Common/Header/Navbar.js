@@ -6,6 +6,9 @@ import { IoMdClose } from 'react-icons/io'
 const Navbar = () => {
 
     const [openNav, setOpenNav] = useState(false)
+    function scrollWin() {
+        window.scrollTo(0, 0);
+    }
 
     const nav = [
         // { name: 'Home', to: '/', click: false },
@@ -21,12 +24,12 @@ const Navbar = () => {
                     <div className='flex gap-6'>
                         {nav.map(items => (
                             <NavLink key={items.name} to={items.to} className='font-semibold text-[15px] hover:text-slate-500
-                             text-bgblue'>{items.name}</NavLink>
+                            text-bgblue'>{items.name}</NavLink>
                         ))}
                     </div>
                     <Link to='/involved'>
                         <button className='w-48 h-10 text-[10px] font-bold border-[1.5px] border-bgblue
-                         hover:bg-bgblue hover:text-white tracking-widest duration-500'>GET INVOLVED</button>
+                        hover:bg-bgblue hover:text-white tracking-widest duration-500'>GET INVOLVED</button>
                     </Link>
                 </div>
             </div>
@@ -39,10 +42,10 @@ const Navbar = () => {
                         <div className='w-full flex flex-col gap-1 pt-20 px-8'>
                             {nav.map(items => (
                                 <NavLink key={items.name} to={items.to} className='font-light tracking-widest text-[17px] hover:text-red-600
-                           text-white border-b w-4/5 h-10' onClick={() => setOpenNav(items.click)}>{items.name}</NavLink>
+                           text-white border-b w-4/5 h-10' onClick={() => setOpenNav(items.click)}><p onClick={scrollWin}>{items.name}</p></NavLink>
                             ))}
-                            <Link to='/involved'>
-                                <button className='text-white text-start text-[16px] font-normal' onClick={() => setOpenNav(false)}>GET INVOLVED</button>
+                            <Link onClick={() => setOpenNav(false)} className='w-[75%]' to='/involved'>
+                                <button className='text-white text-start w-full text-[16px] font-normal' onClick={scrollWin}  >GET INVOLVED</button>
                             </Link>
                         </div>
                     </div> : null}

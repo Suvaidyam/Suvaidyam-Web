@@ -86,10 +86,10 @@ const AboutUs = () => {
             <div className="lg:w-1/2  lg:order-2 order-1">
               <h1 className=" lg:hidden block text-white  text-3xl my-5 font-semibold tracking-wider text-center ">Who We Are</h1>
               <div className="lg:w-[60%] lg:h-full lg:bg-white lg:ml-12 lg:mt-16 relative">
-                <div className="w-full lg:absolute  lg:ml-12 lg:-mt-10  lg:px-0 px-6">
+                <div className="xl:w-full  lg:absolute lg:-mt-10  lg:px-0 px-6">
                   <img
                     data-aos="fade-right"
-                    className="w-full h-full md:px-10 lg:px-0"
+                    className="w-full xl:h-[530px] lg:h-[430px] lg:ml-12 md:px-10 lg:px-0"
                     src={founder}
                     alt=""
                   />

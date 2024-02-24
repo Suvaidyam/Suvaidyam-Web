@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import React from 'react';
+import { BsInstagram } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
+import { FaFacebookF } from 'react-icons/fa';
+import { ImLinkedin2 } from 'react-icons/im';
+
+const Footer = () => {
+=======
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsInstagram } from 'react-icons/bs'
@@ -10,6 +19,7 @@ const Footer = () => {
   function scrollWin() {
     window.scrollTo(0, 0);
   }
+>>>>>>> 123f5c79f18460ed22fac6c769bd5b8b8162eb1c
   return (
     <>
       <div className="w-full mt-auto">
@@ -25,12 +35,15 @@ const Footer = () => {
                       <div className=" relative w-[268px] flex justify-end items-center">
                         <span className='h-[1px] bg-blue-700 w-[40px] absolute left-0'></span>
                         <span className='text-right h-6 z-50 font-light text-[16px]'>
-                          Your support means saved lives</span>
+                          Your support means saved lives
+                        </span>
                       </div>
                     </div>
                     <button className='bg-bgblue text-white text-[10px] tracking-widest border-[1.5px]
                      border-bgblue w-48 md:w-28 h-9 font-extrabold hover:bg-white hover:text-bgblue 
-                     duration-500'>DONATE</button>
+                     duration-500'>
+                      DONATE
+                    </button>
                   </div>
                   {/* bottom */}
                   <div className="w-full h-auto md:h-1/2 flex flex-col md:flex-row gap-8 lg:gap-24  ">
@@ -41,30 +54,40 @@ const Footer = () => {
                       </div>
                       <div className="">
                         <p className='text-fsm font-light'>+91-8308623995</p>
-                        <Link className='text-fsm font-light'>tech@suvaidyam.com</Link>
+                        <a href='mailto:tech@suvaidyam.com' className='text-fsm font-light'>
+                          tech@suvaidyam.com
+                        </a>
                       </div>
                     </div>
                     <div className="h-full flex flex-col justify-end gap-3 md:gap-9">
                       <p className='font-semibold text-fsm'>GET INVOLVED</p>
-                      <p className='font-light text-fsm'>Let's combine forces to make a <br />
-                        difference together</p>
+                      <p className='font-light text-fsm'>
+                        Let's combine forces to make a <br />
+                        difference together
+                      </p>
                     </div>
                     <div className="h-full flex flex-col justify-end gap-4 mt-5 ">
                       <p className='font-semibold text-fsm'>JOIN THE EMAIL LIST</p>
                       <div className="flex gap-3 ">
-                        <a href='https://www.instagram.com/suvaidyam/' target='_blank'>
+                        <a href='https://www.instagram.com/suvaidyam/' target='_blank' rel='noreferrer'>
                           <div className="w-9 h-9 rounded-full bg-slate-500 flex items-center justify-center text-white instagarm">
                             <BsInstagram className='text-xl' />
                           </div>
                         </a>
-                        <a href='https://www.facebook.com/' target='_blank'>
-                          <div className="w-9 h-9 rounded-full bg-[#3b5998] flex items-center justify-center text-white"><FaFacebookF className='text-xl' /></div>
+                        <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
+                          <div className="w-9 h-9 rounded-full bg-[#3b5998] flex items-center justify-center text-white">
+                            <FaFacebookF className='text-xl' />
+                          </div>
                         </a>
-                        <a href='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D' target='_blank'>
-                          <div className="w-9 h-9 rounded-full bg-sky-400 flex items-center justify-center text-white"><BsTwitter className='text-xl' /></div>
+                        <a href='https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D' target='_blank' rel='noreferrer'>
+                          <div className="w-9 h-9 rounded-full bg-sky-400 flex items-center justify-center text-white">
+                            <BsTwitter className='text-xl' />
+                          </div>
                         </a>
-                        <a href='' target='_blank'>
-                          <div className="w-9 h-9 rounded-full bg-[#0077b5] flex items-center justify-center text-white "><ImLinkedin2 className='text-xl' /></div>
+                        <a href='https://www.linkedin.com/company/suvaidyam/?originalSubdomain=in' target='_blank' rel='noreferrer'>
+                          <div className="w-9 h-9 rounded-full bg-[#0077b5] flex items-center justify-center text-white ">
+                            <ImLinkedin2 className='text-xl' />
+                          </div>
                         </a>
                       </div>
                       <div className='flex gap-3'>
@@ -73,7 +96,9 @@ const Footer = () => {
                     text-sm font-light'/>
                         <button className='w-24 border-2 border-bgblue hover:bg-bgblue hover:text-white
                     duration-500 text-[9px] font-extrabold 
-                    tracking-widest'>JOIN</button>
+                    tracking-widest'>
+                          JOIN
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -92,7 +117,7 @@ const Footer = () => {
       </div>
       <div onClick={scrollWin} className="w-10 cursor-pointer flex justify-center items-center text-white text-xl duration-500 h-10 z-50 bg-sky-600 rounded-full fixed right-5  bottom-10"><VscArrowUp /></div>
     </>
-  )
+  );
 }
 
 export default Footer;

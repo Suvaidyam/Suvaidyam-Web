@@ -1,5 +1,6 @@
 import React from 'react';
 import getin from '../../Assets/involved-img.webp';
+import soon from '../../Assets/comming.avif';
 
 const GetInvolved = () => {
   const insi = [
@@ -27,62 +28,29 @@ const GetInvolved = () => {
         </div>
         {/* Donate */}
         <div className="flex justify-center mt-20">
-          {insi.map(e => (
-            <div className="md:mx-20" key={e.id}>
-              <div className="">
-                <h1 className='text-[28px] md:-ml-5'>DONATE</h1>
-                <h1 className='font-fontgetDown text-[18px] mt-5'><b>Ways to give:</b></h1>
-                <h1 className='md:text-[16px] text-[19px] text-bgblue mt-5 font-semibold'>Gift</h1>
-                <div className="font-thin italic md:text-[14.5px] text-[15px]">
-                  <p>
-                    If you would like to donate items such as laptops and services such as course memberships, please contact:
-                  </p>
-                  <p>{e.pre}</p>
-                  <p>for example:</p>
-                  <p>Amresh Kumar</p>
-                  <p>Phone: +91 ___</p>
-                  <p>Email: suvaidyam reach us email address</p>
-                  <p>{e.pre1}</p>
-                </div>
-              </div>
-              {/* Second part */}
-              <div className="">
-                <h1 className='font-fontgetDown md:text-[16px] text-[20px] mt-5'><b>Wire Transfer</b></h1>
-                <div className="font-thin md:text-[14.5px] text-[16px]">
-                  <p>If you would like to donate via wire transfer, please contact:</p>
-                  <p>{e.pre}</p>
-                  <p>for example:</p>
-                  <p>Amresh Kumar</p>
-                  <p>Phone: +91 ___</p>
-                  <p>Email: suvaidyam reach us email address</p>
-                  <p>{e.pre1}</p>
-                </div>
-              </div>
-              {/* Third Part */}
-              <div className="">
-                <h1 className='font-fontgetDown text-[19px] mt-5'><b>Mail a Cheque</b></h1>
-                <div className="font-thin italic md:text-[14.5px] text-[16px]">
-                  <p>{e.pre2}</p>
-                  <p>{e.pre3}</p>
-                </div>
-              </div>
-              {/* Fourth part */}
-              <div className="">
-                <h1 className='text-[24px] md:-ml-7 mt-10 mb-5 tracking-wider'>VOLUNTEER</h1>
-                <div className="font-thin md:text-[14.5px] text-[16px]">
-                  <p>Volunteering with us allows you to work directly with students giving them the opportunity to learn from individuals</p>
-                  <p>{e.pre4}</p>
-                </div>
-              </div>
-              {/* Fifth part */}
-              <div className="">
-                <h1 className='md:text-[25px] text-[23px] md:-ml-7 mt-10 mb-5 tracking-wider'>BE OUR CHEERLEADER</h1>
-                <div className="font-thin md:text-[14.5px] text-[16px]">
-                  <p>Help us spread the word.</p>
-                </div>
+          {/* {insi.map(e => ( */}
+          <div className="md:mx-20">
+            <div className="">
+              <h1 className='text-[28px] md:-ml-5'>DONATE</h1>
+              <img src={soon} alt="" className='w-56' />
+            </div>
+            {/* Fourth part */}
+            <div className="">
+              <h1 className='text-[24px] md:-ml-7 mt-10 mb-5 tracking-wider'>VOLUNTEER</h1>
+              <div className="font-thin md:text-[14.5px] text-[16px]">
+                <p>Volunteering with us allows you to work directly with students giving them the opportunity to learn from individuals</p>
+                {/* <p>{e.pre4}</p> */}
               </div>
             </div>
-          ))}
+            {/* Fifth part */}
+            <div className="">
+              <h1 className='md:text-[25px] text-[23px] md:-ml-7 mt-10 mb-5 tracking-wider'>BE OUR CHEERLEADER</h1>
+              <div className="font-thin md:text-[14.5px] text-[16px]">
+                <p>Help us spread the word.</p>
+              </div>
+            </div>
+          </div>
+          {/* ))} */}
         </div>
       </div>
       {/* Footer site */}

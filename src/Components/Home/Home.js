@@ -4,29 +4,24 @@ import group from "../../Assets/group.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import dhwaniImg from "../../Assets/DhwaniRIS.png";
+import dhwaniImg from "../../Assets/DhwaniRIS.png"
+import Aircom from "../../Assets/capital.jpeg"
 
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
-  const Dhawani = [
+  const PartnerOrg = [
     {
       url: dhwaniImg,
-      id: 1
+      id: 1,
+      link: "https://dhwaniris.com"
     },
     {
-      url: dhwaniImg,
-      id: 2
-    },
-    {
-      url: dhwaniImg,
-      id: 3
-    },
-    {
-      url: dhwaniImg,
-      id: 4
-    },
+      url: Aircom,
+      id: 2,
+      link: "https://www.capitalaircom.com"
+    }
   ]
 
   return (
@@ -97,7 +92,7 @@ const Home = () => {
               <p className='font-extrabold md:text-[55px] text-[45px] tracking-[12px] text-bgblue pt-8'>WHY</p>
               <p className='font-bold text-bgblue pb-8 text-lg tracking-widest'>JOIN HANDS</p>
               <div className="md:text-[18px] lg:w-[365px] md:px-32 lg:px-0 text-[18px] font-fontserif
-               text-bgblue tracking-wide">
+              text-bgblue tracking-wide">
                 <p>
                   Barriers such as lack of guidance, exposure,
                   infrastructure and resources prevent the youth
@@ -113,7 +108,7 @@ const Home = () => {
               <Link to='/involved'>
                 <button
                   className="md:w-40 w-48 lg:text-[12px] md:text-[11px] text-[15px] md:h-12 h-12 md:mt-16 mt-7
-                   font-bold md:border-[2px] border-[3px] border-bgblue hover:bg-bgblue duration-700 text-bgblue
+                  font-bold md:border-[2px] border-[3px] border-bgblue hover:bg-bgblue duration-700 text-bgblue
                       hover:text-white md:tracking-widest tracking-[3px]"
                 >
                   GET INVOLVED
@@ -128,7 +123,7 @@ const Home = () => {
           <div className="w-full md:flex justify-between px-6 max-w-[1230px]  lg:px-24 xl:px-48 items-center mt-20">
             <div>
               <p className="font-serif text-bgblue text-[29px] lg:text-5xl md:text-[36px]">
-                Partner Organisations
+                Partner Organizations
               </p>
             </div>
             <div className='flex md:justify-center md:gap-4'>
@@ -140,10 +135,13 @@ const Home = () => {
         {/* svg */}
         <section>
           <div className="w-full h-auto md:h-40 px-6  lg:px-24 xl:px-48 mt-6 md:mt-2 mb-10 flex justify-center">
-            <div className="w-full h-full flex gap-8 md:gap-10 max-w-[850px] flex-wrap items-center justify-between">
-              {Dhawani.map(e => (
-                <div className="w-32 min-w-[128px]" key={e.id}>
-                  <img src={e.url} alt="Dhawani img" />
+            <div className="w-full h-full flex gap-8 md:gap-10 max-w-[850px] flex-wrap items-center ">
+              {PartnerOrg.map(e => (
+                // <div className="w-36 min-w-[128px] aspect-ratio" key={e.id}>
+                //   <img src={e.url} alt="Partner Logo" />
+                // </div>
+                <div className="logo" key={e.id}>
+                  <a href={e.link} target="_blank"><img src={e.url} className="w-full h-full" alt="Partner Logo" /></a>
                 </div>
               ))}
             </div>

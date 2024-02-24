@@ -3,17 +3,16 @@ import getin from '../../Assets/involved-img.webp';
 import soon from '../../Assets/comming.avif';
 
 const GetInvolved = () => {
-  const insi = [
-    {
-      pre: "<add details here, who donor can reach out to for making a wire transfer?",
-      pre1: ">",
-      pre2: "Please make your cheque payable to <add cheque receiver name here> and mail to:",
-      pre3: "<add mailing address here>",
-      pre4: "working in various domains​. To volunteer at Suvaidyam, reach out to us on <insert email here>.",
-      id: 1
-    },
-
-  ]
+  // const insi = [
+  //   {
+  //     pre: "<add details here, who donor can reach out to for making a wire transfer?",
+  //     pre1: ">",
+  //     pre2: "Please make your cheque payable to <add cheque receiver name here> and mail to:",
+  //     pre3: "<add mailing address here>",
+  //     pre4: "working in various domains​. To volunteer at Suvaidyam, reach out to us on <insert email here>.",
+  //     id: 1
+  //   },
+  // ]
   return (
     <>
       <div className="w-full h-full mt-20 md:mt-28 lg:mt-44 md:px-0 px-5">

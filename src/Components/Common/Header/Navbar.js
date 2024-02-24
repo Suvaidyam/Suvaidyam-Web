@@ -45,7 +45,7 @@ const Navbar = () => {
                            text-white border-b w-4/5 h-10' onClick={() => setOpenNav(items.click)}><p onClick={scrollWin}>{items.name}</p></NavLink>
                             ))}
                             <Link onClick={() => setOpenNav(false)} className='w-[75%]' to='/involved'>
-                                <button className='text-white text-start w-full text-[16px] font-normal' onClick={scrollWin}  >GET INVOLVED</button>
+                                <button className='text-white text-start w-full text-[16px] font-normal' onClick={scrollWin}>GET INVOLVED</button>
                             </Link>
                         </div>
                     </div> : null}

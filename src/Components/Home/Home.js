@@ -141,7 +141,7 @@ const Home = () => {
                 //   <img src={e.url} alt="Partner Logo" />
                 // </div>
                 <div className="logo" key={e.id}>
-                  <a href={e.link} target="_blank"><img src={e.url} className="w-full h-full" alt="Partner Logo" /></a>
+                  <a href={e.link} target="_blank" rel='noreferrer'><img src={e.url} className="w-full h-full" alt="Partner Logo" /></a>
                 </div>
               ))}
             </div>

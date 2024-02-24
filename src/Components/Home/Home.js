@@ -40,7 +40,7 @@ const Home = () => {
             className="text-sm md:text-xl text-bgblue md:-mt-5"
             data-aos="fade-right"
           >
-            EMPOWERING RURAL INDIA THROUGH TECH
+            {/* EMPOWERING RURAL INDIA THROUGH TECH */}
           </p>
         </div>
         {/* SUVAIDYAM DOWN */}

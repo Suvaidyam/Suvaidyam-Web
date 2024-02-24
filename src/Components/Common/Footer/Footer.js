@@ -1,13 +1,31 @@
+import { ErrorMessage, Field, Form, Formik } from 'formik'
 import React from 'react'
 import { BsInstagram } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
 import { ImLinkedin2 } from 'react-icons/im'
 import { VscArrowUp } from 'react-icons/vsc'
+import { emailScema } from '../../../Schema'
+import http from '../../../Service/http'
 
 const Footer = () => {
   function scrollWin() {
     window.scrollTo(0, 0);
+  }
+  const handleSubscribe = (values, action) => {
+    try {
+      const response = http({
+        url: '.subscribe',
+        method: 'POST',
+        data: values
+      })
+      if (response) {
+        console.log('success', response)
+        action.resetForm();
+      }
+    } catch (error) {
+      console.error('error in api', error)
+    }
   }
   return (
     <>
@@ -79,15 +97,26 @@ const Footer = () => {
                           </div>
                         </a>
                       </div>
-                      <div className='flex gap-3'>
-                        <input type="email" placeholder='Enter email address' className='border-[2.5px]
+                      <div className='relative'>
+                        <Formik
+                          initialValues={{ email: "" }}
+                          validationSchema={emailScema}
+                          onSubmit={handleSubscribe}
+                        >
+                          <Form className='flex gap-3'>
+                            <div className="flex flex-col items-start gap-1">
+                              <Field type="email" name="email" placeholder='Enter email address' className='border-[2.5px]
                     w-36 px-3 py-1.5 border-bgblue placeholder:text-sm placeholder:font-light outline-none
                     text-sm font-light'/>
-                        <button className='w-24 border-2 border-bgblue hover:bg-bgblue hover:text-white
+                              <ErrorMessage name='email' component='p' className='text-xs text-red-500 absolute left-0 -bottom-5' />
+                            </div>
+                            <button type='submit' className='w-24 border-2 border-bgblue hover:bg-bgblue hover:text-white
                     duration-500 text-[9px] font-extrabold 
                     tracking-widest'>
-                          JOIN
-                        </button>
+                              JOIN
+                            </button>
+                          </Form>
+                        </Formik>
                       </div>
                     </div>
                   </div>

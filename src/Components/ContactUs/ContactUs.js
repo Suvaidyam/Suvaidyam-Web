@@ -1,6 +1,7 @@
 import { useFormik } from "formik";
 import React from "react";
 import { signUpSchema } from "../../Schema";
+import http from "../../Service/http";
 
 const initialValues = {
   name: "",
@@ -9,15 +10,16 @@ const initialValues = {
 }
 
 const ContactUs = () => {
-
-  const { values, errors, touched, handleBlur, handleChange, handleSubmit } = useFormik({
+  const handleSubmit = (values, action) => {
+    console.log(values)
+    action.resetForm();
+  }
+  const { values, errors, touched, handleBlur, handleChange } = useFormik({
     initialValues: initialValues,
     validationSchema: signUpSchema,
-    onSubmit: (values, action) => {
-      console.log(values);
-      action.resetForm();
-    }
+    onSubmit: handleSubmit
   })
+
   return (
     <>
       <div className="h-full w-full mx-auto max-w-[1800px]">

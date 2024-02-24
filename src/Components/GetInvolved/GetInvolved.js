@@ -26,7 +26,7 @@ const GetInvolved = () => {
           </div>
         </div>
         {/* Donate */}
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-start md:ml-64 mt-20">
           {/* {insi.map(e => ( */}
           <div className="md:mx-20">
             <div className="">
@@ -34,20 +34,20 @@ const GetInvolved = () => {
               <img src={soon} alt="" className='w-56' />
             </div>
             {/* Fourth part */}
-            <div className="">
+            {/* <div className="">
               <h1 className='text-[24px] md:-ml-7 mt-10 mb-5 tracking-wider'>VOLUNTEER</h1>
               <div className="font-thin md:text-[14.5px] text-[16px]">
                 <p>Volunteering with us allows you to work directly with students giving them the opportunity to learn from individuals</p>
-                {/* <p>{e.pre4}</p> */}
+                <p>{e.pre4}</p>
               </div>
-            </div>
+            </div> */}
             {/* Fifth part */}
-            <div className="">
+            {/* <div className="">
               <h1 className='md:text-[25px] text-[23px] md:-ml-7 mt-10 mb-5 tracking-wider'>BE OUR CHEERLEADER</h1>
               <div className="font-thin md:text-[14.5px] text-[16px]">
                 <p>Help us spread the word.</p>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* ))} */}
         </div>

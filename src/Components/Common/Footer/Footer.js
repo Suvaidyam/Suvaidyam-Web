@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
-import { BsInstagram } from 'react-icons/bs';
-import { BsTwitter } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
-import { ImLinkedin2 } from 'react-icons/im';
-
-const Footer = () => {
-=======
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { BsInstagram } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
@@ -19,7 +9,6 @@ const Footer = () => {
   function scrollWin() {
     window.scrollTo(0, 0);
   }
->>>>>>> 123f5c79f18460ed22fac6c769bd5b8b8162eb1c
   return (
     <>
       <div className="w-full mt-auto">

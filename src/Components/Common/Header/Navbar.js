@@ -21,12 +21,12 @@ const Navbar = () => {
                     <div className='flex gap-6'>
                         {nav.map(items => (
                             <NavLink key={items.name} to={items.to} className='font-semibold text-[15px] hover:text-slate-500
-                             text-bgblue'>{items.name}</NavLink>
+                            text-bgblue'>{items.name}</NavLink>
                         ))}
                     </div>
                     <Link to='/involved'>
                         <button className='w-48 h-10 text-[10px] font-bold border-[1.5px] border-bgblue
-                         hover:bg-bgblue hover:text-white tracking-widest duration-500'>GET INVOLVED</button>
+                        hover:bg-bgblue hover:text-white tracking-widest duration-500'>GET INVOLVED</button>
                     </Link>
                 </div>
             </div>

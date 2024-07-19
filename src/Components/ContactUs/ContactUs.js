@@ -43,20 +43,22 @@ const ContactUs = () => {
   return (
     <>
 
-      <div className="flex md:flex-row ">
-        <div className="h-full  w-3/5 mx-auto max-w-[1800px]">
-          <div className="md:pb-20 mt-20 bg-[#FAFAFA] md:px-0 px-7 ">
+      <div className="flex flex-col lg:flex-row gap-20 max-w-[1720px] mx-auto">
+        <div className="h-full w-full lg:w-3/5">
+          <div className="lg:pb-20 mt-20 bg-[#FAFAFA] px-6 ">
             <div className="md:pt-32 pt-5 items-center md:text-center ">
-              <p className=" md:text-4xl text-3xl text-bgfooter   font-bold  md:tracking-widest">
+              <p className=" md:text-4xl text-3xl text-bgfooter  font-bold  md:tracking-widest">
                 HAVE QUESTIONS?
               </p>
-              <p className="border-bgblue w-11 md:mx-[48.3%] border-t-[3px] mt-2"></p>
-              <p className="pt-5 tracking-[2px] md:text-[14px] text-[17px]">
+              <div className="flex justify-start md:justify-center">
+                <p className="border-bgblue w-10 border-t-[3px] mt-2"></p>
+              </div>
+              <p className="pt-5 tracking-[2px] md:text-[14px] text-[17px] md:px-20 lg:px-40">
                 We have answers. Feel free to leave a message, and we will get back
                 to you as soon as possible.
               </p>
             </div>
-            <div className="lg:px-[32%] md:px-[23%] mt-20">
+            <div className="lg:px-30 md:px-10 mt-20">
               <Formik
                 initialValues={initialValues}
                 validationSchema={signUpSchema}
@@ -126,9 +128,9 @@ const ContactUs = () => {
                       MESSAGE
                     </label>
                   </div>
-                  <div className="md:text-center">
+                  <div className="text-center">
                     <button
-                      className="md:w-24  w-[147px] md:h-10 h-12 md:text-[11px] text-[20px] md:mt-16 font-bold md:font-extrabold border-[2px]
+                      className="w-full md:h-10 h-12 md:text-[11px] text-[20px] md:mt-16 font-bold md:font-extrabold border-[2px]
               border-bgblue bg-bgblue hover:bg-white duration-700 text-white hover:text-bgblue tracking-[2px]"
                     >
                       SEND
@@ -139,7 +141,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className=" w-2/5 my-44  mx-28 md:flex-col bg-[#d9f0c7]">
+        <div className="w-full lg:w-2/5  md:flex-col  bg-[#d9f0c7]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.026368601712!2d84.86815507600447!3d25.835676405543246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992b3006a6ec4b3%3A0x998d01f7712e7ad9!2sSuvaidyam!5e0!3m2!1sen!2sin!4v1721372561111!5m2!1sen!2sin"
             className=" w-full text-green-500 h-full border-0"

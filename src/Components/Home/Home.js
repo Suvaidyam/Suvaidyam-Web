@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import Slider from "./Slider/Slider";
+// import Slider from "./Slider/Slider";
 import group from "../../Assets/group.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import dhwaniImg from "../../Assets/DhwaniRIS.png"
 import Aircom from "../../Assets/capital.jpeg"
+import Slider from "./carousel/Salider";
 
 const Home = () => {
   useEffect(() => {

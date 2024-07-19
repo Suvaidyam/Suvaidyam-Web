@@ -8,6 +8,7 @@ const Slider = () => {
       id: 1
     },
   ]
+
   return (
     <>
       <div className='mt-20'>

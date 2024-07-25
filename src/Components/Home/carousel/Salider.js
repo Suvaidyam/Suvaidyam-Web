@@ -38,7 +38,7 @@ const Slider = () => {
         <Carousel {...settings}>
             {sliderContent?.map((slide, index) => (
                 <div key={index}>
-                    <img src={slide.img} alt="Slider 1" className='w-full h-[240px] md:h-[460px] lg:h-[650px]' />
+                    <img src={slide.img} alt="Slider 1" className='w-full h-[200px] md:h-[460px] lg:h-[600px]' />
                     {/* <p className="legend  my-11  ">{slide.legend}</p> */}
                 </div>
             ))}

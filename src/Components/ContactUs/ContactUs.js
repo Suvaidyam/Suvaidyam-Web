@@ -11,17 +11,6 @@ const initialValues = {
 
 const ContactUs = () => {
 
-  //   const iframeHTML = `
-  //   <iframe 
-  //     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.026368601712!2d84.86815507600447!3d25.835676405543246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992b3006a6ec4b3%3A0x998d01f7712e7ad9!2sSuvaidyam!5e0!3m2!1sen!2sin!4v1721372561111!5m2!1sen!2sin" 
-  //     height="300" 
-  //     style="border:0;" 
-  //     allowFullScreen
-  //     loading="lazy" 
-  //     referrerpolicy="no-referrer-when-downgrade">
-  //     title="Google Maps Embed"
-  //   </iframe>
-  // `;
 
 
   const handleSubmit = (values, action) => {
@@ -43,9 +32,9 @@ const ContactUs = () => {
   return (
     <>
 
-      <div className="flex flex-col lg:flex-row gap-20 max-w-[1720px] mx-auto">
-        <div className="h-full w-full lg:w-3/5">
-          <div className="lg:pb-20 mt-20 bg-[#FAFAFA] px-6 ">
+      <div className="flex flex-col lg:flex-row gap-20 max-w-[1720px] mx-auto mt-28">
+        <div className="h-full w-full lg:w-3/5 bg-[#FAFAFA]">
+          <div className="lg:pb-20  px-6 ">
             <div className="md:pt-32 pt-5 items-center md:text-center ">
               <p className=" md:text-4xl text-3xl text-bgfooter  font-bold  md:tracking-widest">
                 HAVE QUESTIONS?
@@ -55,7 +44,7 @@ const ContactUs = () => {
               </div>
               <p className="pt-5 tracking-[2px] md:text-[14px] text-[17px] md:px-20 lg:px-40">
                 We have answers. Feel free to leave a message, and we will get back
-                to you as soon as possible.
+                to you as soon as possible .
               </p>
             </div>
             <div className="lg:px-30 md:px-10 mt-20">
@@ -141,10 +130,10 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-2/5  md:flex-col  bg-[#d9f0c7]">
+        <div className="w-full lg:w-2/5 md:flex-col ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.026368601712!2d84.86815507600447!3d25.835676405543246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992b3006a6ec4b3%3A0x998d01f7712e7ad9!2sSuvaidyam!5e0!3m2!1sen!2sin!4v1721372561111!5m2!1sen!2sin"
-            className=" w-full text-green-500 h-full border-0"
+            className=" w-full  h-full border-0"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

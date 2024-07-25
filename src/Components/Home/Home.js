@@ -29,7 +29,7 @@ const Home = () => {
     <>
       <div className="w-full h-full max-w-[1800px] mx-auto">
         {/* imaze */}
-        <div className="w-full"><Slider /></div>
+        <div className="w-full mt-20"><Slider /></div>
         <div className="pl-6 md:text-center">
           <p
             className="  text-bgblue pt-7 font-playfire md:text-[85px] text-[40px] "

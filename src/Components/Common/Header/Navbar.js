@@ -2,21 +2,30 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { HiBars3 } from 'react-icons/hi2'
 import { IoMdClose } from 'react-icons/io'
+import { BiLogInCircle } from "react-icons/bi";
 
 const Navbar = () => {
 
+    // const []=useState()
     const [openNav, setOpenNav] = useState(false)
     function scrollWin() {
         window.scrollTo(0, 0);
     }
 
     const nav = [
-        // { name: 'Home', to: '/', click: false },
+        // { name: 'Home', to: '/', click: false },false
         { name: 'About Us', to: '/about', click: false },
         // { name: 'The Team', to: '/teams', click: false },
         { name: 'Where We Work', to: '/work', click: false },
-        { name: 'Contact Us', to: '/contact', click: false }
+        { name: 'Contact Us', to: '/contact', click: false },
+
     ]
+
+    const handleClick = () => {
+        window.location.href = 'https://learn.suvaidyam.com/';
+    };
+
+
     return (
         <>
             <div className="hidden lg:block">
@@ -50,6 +59,19 @@ const Navbar = () => {
                         </div>
                     </div> : null}
             </div>
+
+            <div className='mx-1   '>
+                <button
+                    onClick={handleClick}
+                    className='w-24 h-10 text-sm font-semibold  
+                     duration-500 z-50  bg-sky-600 rounded-sm  text-white px-4 py-2 
+                     flex items-center justify-center gap-2'
+                >
+                    Login
+                    < BiLogInCircle className='w-20 h-16' />
+                </button>
+            </div>
+
         </>
     );
 };

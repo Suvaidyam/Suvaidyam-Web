@@ -7,6 +7,7 @@ import { VscArrowUp } from 'react-icons/vsc'
 import { emailScema } from '../../../Schema'
 import http from '../../../Service/http'
 
+
 const Footer = () => {
   function scrollWin() {
     window.scrollTo(0, 0);
@@ -26,6 +27,7 @@ const Footer = () => {
       console.error('error in api', error)
     }
   }
+
   return (
     <>
       <div className="w-full mt-auto">
@@ -117,12 +119,14 @@ const Footer = () => {
         </div>
         {/* Copyright */}
         <div className="w-full bg-bgfooter h-16 ">
-          <div className="w-full max-w-[1250px] mx-auto h-full px-0 lg:px-[214px] flex items-center
-        justify-center lg:justify-start">
+          <div className="w-full max-w-[1250px]  h-full lg:px-[185px] flex items-center
+         lg:justify-start">
             <p className='text-white font-light text-sm'> © 2023 by Suvaidyam, Saran, Bihar</p>
           </div>
         </div>
       </div>
+
+
       <div onClick={scrollWin} className="w-10 cursor-pointer flex justify-center items-center text-white text-xl duration-500 h-10 z-50 bg-sky-600 rounded-full fixed right-5  bottom-10"><VscArrowUp /></div>
     </>
   );

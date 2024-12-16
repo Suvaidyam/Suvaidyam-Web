@@ -3,8 +3,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+
 import slider1 from '../../../Assets/home-img.jpg';
-import slider2 from '../../../Assets/agriculture.jpg';
+// import slider2 from '../../../Assets/agriculture.jpg';
 import slider3 from '../../../Assets/ new photo.avif';
 
 const Slider = () => {
@@ -17,16 +18,12 @@ const Slider = () => {
         showThumbs: false,
         showStatus: false,
         dynamicHeight: false,
-        swipeable: true
+        swipeable: true,
     };
     let sliderContent = [
         {
             img: slider1,
             // legend: "L1 "
-        },
-        {
-            img: slider2,
-            // legend: "L2"
         },
         {
             img: slider3,

@@ -49,17 +49,27 @@ const Footer = () => {
                   DONATE
                 </button>
               </div>
-              <div className="flex flex-col gap-3 ">
-                <div className="md:mt-auto mt-8">
-                  <p className='text-fsm font-light'>Address</p>
-                  <p className='text-fsm font-light'>Saran(chhapra), Bihar, 841311</p>
-                </div>
-                <div className="">
-                  <p className='text-fsm font-light'>+91-8308623995</p>
-                  <a href='mailto:tech@suvaidyam.com' className='text-fsm font-light'>
-                    tech@suvaidyam.com
-                  </a>
-                </div>
+              <div className=" flex flex-col justify-end gap-2 md:gap-3">
+                <p className='font-semibold text-xl'>Registered Office</p>
+                <p className='font-light text-fsm'>
+                  VILLINTEL SUVAIDYAM PRIVATE LIMITED
+                </p>
+                <p className='font-light text-sm'>CIN - U62099DL2024PTC436726
+                  <br /> PAN - AAKCV4369C
+                  <br /> TAN - DELV29114B</p>
+              </div>
+
+            </div>
+            <div className="flex flex-col gap-3 ">
+              <div className="md:mt-auto mt-8">
+                <p className='font-semibold text-xl'>Address</p>
+                <p className='text-sm font-light pt-2 '> F-374/C GF BLOCK -F, AYA NAGAR EXTN PH-6,<br></br>South Delhi - 110047</p>
+              </div>
+              <div className="">
+                <p className='text-fsm font-light'>+91-8308623995</p>
+                <a href='mailto:tech@suvaidyam.com' className='text-fsm font-light'>
+                  tech@suvaidyam.com
+                </a>
               </div>
             </div>
             <div className=" flex flex-col justify-end gap-3 md:gap-9">

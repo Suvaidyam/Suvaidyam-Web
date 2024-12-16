@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { HiBars3 } from 'react-icons/hi2'
 import { IoMdClose } from 'react-icons/io'
-import { BiLogInCircle } from "react-icons/bi";
 
 const Navbar = () => {
 
@@ -21,9 +20,6 @@ const Navbar = () => {
 
     ]
 
-    const handleClick = () => {
-        window.location.href = 'https://learn.suvaidyam.com/';
-    };
 
 
     return (
@@ -59,19 +55,6 @@ const Navbar = () => {
                         </div>
                     </div> : null}
             </div>
-
-            <div className='mx-1   '>
-                <button
-                    onClick={handleClick}
-                    className='w-24 h-10 text-sm font-semibold  
-                     duration-500 z-50  bg-sky-600 rounded-sm  text-white px-4 py-2 
-                     flex items-center justify-center gap-2'
-                >
-                    Login
-                    < BiLogInCircle className='w-20 h-16' />
-                </button>
-            </div>
-
         </>
     );
 };
